@@ -1,9 +1,9 @@
 // cdecls.h
 // AutoMod 12.3.1 Generated File
 // Build: 2152.82
-// Model name:	Demo1
-// Model path:	C:\Users\Seong taek Lim\Desktop\Tuto\demo1.dir\
-// Generated:	Mon Mar 01 17:37:28 2021
+// Model name:	demo1
+// Model path:	C:\Users\LST\Desktop\IN Lab\AM_saver-\demo1.dir\
+// Generated:	Tue Mar 02 17:42:09 2021
 // Applied/AutoMod Licensee Confidential
 // NO DISTRIBUTION OR REPRODUCTION RIGHTS GRANTED!
 // Copyright (c) 1988-2010 Applied Materials All rights reserved.
@@ -29,6 +29,10 @@
 #define am2_sta1 am_model.am_Conv1.am_sta1
 #undef am2_sta2
 #define am2_sta2 am_model.am_Conv1.am_sta2
+#undef am2_staout2
+#define am2_staout2 am_model.am_Conv1.am_staout2
+#undef am2_staout1
+#define am2_staout1 am_model.am_Conv1.am_staout1
 #undef am2_parentsys
 #define am2_parentsys am_model.am_Conv1.am_parentsys
 #undef GetSocketNonBlocking
@@ -55,6 +59,8 @@
 #undef FtranQueue
 #undef Fquetoggle
 #undef OPCWriteStringWait
+#undef am2_A_Time
+#define am2_A_Time am_model.am_A_Time
 #undef XLGetAreaA1
 #undef XLSetA1
 #undef SetSocketTimeOut
@@ -84,9 +90,13 @@
 #undef XLSetAreaA1
 #undef am2_OPCTimestamp
 #define am2_OPCTimestamp am_model.am_OPCTimestamp
+#undef am2_stream_R_Operator2_1
+#define am2_stream_R_Operator2_1 am_model.am_stream_R_Operator2_1
 #undef am2_Conv1
 #define am2_Conv1 am_model.am_Conv1.$sys
 #undef FireUserEvent
+#undef am2_Q_Assemble
+#define am2_Q_Assemble am_model.am_Q_Assemble
 #undef ConnectSocketPort
 #undef OPCDisconnect
 #undef GetSocketNum
@@ -117,6 +127,8 @@
 #undef am2_stream_L_Carton_1
 #define am2_stream_L_Carton_1 am_model.am_stream_L_Carton_1
 #undef OPCSubscribe
+#undef am2_V_Numdone
+#define am2_V_Numdone am_model.am_V_Numdone
 #undef XLClearArea
 #undef MachineName
 #undef OPCConnectServer
@@ -144,6 +156,8 @@
 #undef ClosestVehDests
 #undef AcceptSocketPort
 #undef FgetNavDist
+#undef am2_R_Operator1
+#define am2_R_Operator1 am_model.am_R_Operator1
 #undef MMSyncReadMessageType
 #undef XLClearWorkbook
 #undef am2_stream0
@@ -154,10 +168,14 @@
 #undef XLGetArea
 #undef DBExecuteCmd
 #undef FcopyLoadTypePict
+#undef am2_R_Operator2
+#define am2_R_Operator2 am_model.am_R_Operator2
 #undef MMSyncSendMessageType
 #undef SetSyncRate
 #undef OPCAddItem
 #undef XLClearSheet
+#undef am2_stream_R_Operator1_1
+#define am2_stream_R_Operator1_1 am_model.am_stream_R_Operator1_1
 #undef Fquevis
 #undef SetConnectTimeOut
 #undef MMSyncSendMessageNumDatas
@@ -174,6 +192,8 @@
 #undef GetActiveXRunning
 #undef XLClose
 #undef XLClearColumnA1
+#undef am2_P_Out
+#define am2_P_Out am_model.am_P_Out
 #undef MMSyncReadMessageTime
 #undef FscaleResource
 #undef GetSocketName

@@ -1,9 +1,9 @@
 // decls.h
 // AutoMod 12.3.1 Generated File
 // Build: 2152.82
-// Model name:	Demo1
-// Model path:	C:\Users\Seong taek Lim\Desktop\Tuto\demo1.dir\
-// Generated:	Mon Mar 01 17:37:28 2021
+// Model name:	demo1
+// Model path:	C:\Users\LST\Desktop\IN Lab\AM_saver-\demo1.dir\
+// Generated:	Tue Mar 02 17:42:09 2021
 // Applied/AutoMod Licensee Confidential
 // NO DISTRIBUTION OR REPRODUCTION RIGHTS GRANTED!
 // Copyright (c) 1988-2010 Applied Materials All rights reserved.
@@ -31,6 +31,8 @@ struct model_Conv1_struct {
 	System* $sys;
 	LocHead* am_sta1;
 	LocHead* am_sta2;
+	LocHead* am_staout2;
+	LocHead* am_staout1;
 	System* am_parentsys;
 };
 char* Acceleration_valstrfunc(void*);
@@ -115,14 +117,23 @@ Velocity Velocity_strvalfunc(char*);
 struct model_struct {
 	System* $sys;
 	process* am_die;
+	attribute* am_A_Time$att;
 	process* am_P_EnterAssembly;
 	variable* am_OPCTimestamp$var;
 	char* am_OPCTimestamp;
+	rnstream* am_stream_R_Operator2_1;
 	struct model_Conv1_struct am_Conv1;
+	queue* am_Q_Assemble;
 	System* am_modelsys;
 	rnstream* am_stream_L_Carton_1;
+	variable* am_V_Numdone$var;
+	int32 am_V_Numdone;
 	process* am_P_CompleteAssembly;
+	resource* am_R_Operator1;
 	rnstream* am_stream0;
+	resource* am_R_Operator2;
+	rnstream* am_stream_R_Operator1_1;
+	process* am_P_Out;
 	variable* am_OPCQuality$var;
 	int32 am_OPCQuality;
 };

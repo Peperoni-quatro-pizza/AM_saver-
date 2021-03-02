@@ -1,9 +1,9 @@
 // demo1~init1.c
 // AutoMod 12.3.1 Generated File
 // Build: 2152.82
-// Model name:	Demo1
-// Model path:	C:\Users\Seong taek Lim\Desktop\Tuto\demo1.dir\
-// Generated:	Mon Mar 01 17:37:28 2021
+// Model name:	demo1
+// Model path:	C:\Users\LST\Desktop\IN Lab\AM_saver-\demo1.dir\
+// Generated:	Tue Mar 02 17:42:09 2021
 // Applied/AutoMod Licensee Confidential
 // NO DISTRIBUTION OR REPRODUCTION RIGHTS GRANTED!
 // Copyright (c) 1988-2010 Applied Materials All rights reserved.
@@ -32,15 +32,26 @@ initglobs0()
 	am_model.am_Conv1.$sys = symGetSystemDataByName(am_model.$sys, "Conv1");
 	am_model.am_Conv1.am_sta1 = symGetSystemDataByName(am_model.am_Conv1.$sys, "sta1");
 	am_model.am_Conv1.am_sta2 = symGetSystemDataByName(am_model.am_Conv1.$sys, "sta2");
+	am_model.am_Conv1.am_staout2 = symGetSystemDataByName(am_model.am_Conv1.$sys, "staout2");
+	am_model.am_Conv1.am_staout1 = symGetSystemDataByName(am_model.am_Conv1.$sys, "staout1");
 	am_model.am_Conv1.am_parentsys = symGetSystemDataByName(am_model.am_Conv1.$sys, "parentsys");
 	am_model.am_die = symGetSystemDataByName(am_model.$sys, "die");
+	am_model.am_A_Time$att = symGetSystemDataByName(am_model.$sys, "A_Time");
 	am_model.am_P_EnterAssembly = symGetSystemDataByName(am_model.$sys, "P_EnterAssembly");
 	am_model.am_OPCTimestamp$var = symGetSystemDataByName(am_model.$sys, "OPCTimestamp");
 	am_model.am_OPCTimestamp$var->data = (void*)&am_model.am_OPCTimestamp;
+	am_model.am_stream_R_Operator2_1 = symGetSystemDataByName(am_model.$sys, "stream_R_Operator2_1");
+	am_model.am_Q_Assemble = symGetSystemDataByName(am_model.$sys, "Q_Assemble");
 	am_model.am_modelsys = symGetSystemDataByName(am_model.$sys, "modelsys");
 	am_model.am_stream_L_Carton_1 = symGetSystemDataByName(am_model.$sys, "stream_L_Carton_1");
+	am_model.am_V_Numdone$var = symGetSystemDataByName(am_model.$sys, "V_Numdone");
+	am_model.am_V_Numdone$var->data = (void*)&am_model.am_V_Numdone;
 	am_model.am_P_CompleteAssembly = symGetSystemDataByName(am_model.$sys, "P_CompleteAssembly");
+	am_model.am_R_Operator1 = symGetSystemDataByName(am_model.$sys, "R_Operator1");
 	am_model.am_stream0 = symGetSystemDataByName(am_model.$sys, "stream0");
+	am_model.am_R_Operator2 = symGetSystemDataByName(am_model.$sys, "R_Operator2");
+	am_model.am_stream_R_Operator1_1 = symGetSystemDataByName(am_model.$sys, "stream_R_Operator1_1");
+	am_model.am_P_Out = symGetSystemDataByName(am_model.$sys, "P_Out");
 	am_model.am_OPCQuality$var = symGetSystemDataByName(am_model.$sys, "OPCQuality");
 	am_model.am_OPCQuality$var->data = (void*)&am_model.am_OPCQuality;
 	model_mycode_init(&am_model);

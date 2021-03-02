@@ -1,9 +1,9 @@
 // demo1~model.c
 // AutoMod 12.3.1 Generated File
 // Build: 2152.82
-// Model name:	Demo1
-// Model path:	C:\Users\Seong taek Lim\Desktop\Tuto\demo1.dir\
-// Generated:	Mon Mar 01 17:37:28 2021
+// Model name:	demo1
+// Model path:	C:\Users\LST\Desktop\IN Lab\AM_saver-\demo1.dir\
+// Generated:	Tue Mar 02 17:42:09 2021
 // Applied/AutoMod Licensee Confidential
 // NO DISTRIBUTION OR REPRODUCTION RIGHTS GRANTED!
 // Copyright (c) 1988-2010 Applied Materials All rights reserved.
@@ -123,6 +123,9 @@ get_ldatt_address(load* this, int32 index, int32* d)
 	void* data = NULL;
 
 	switch(index) {
+	case 0:
+		data = (void*)&this->attribute->am_model.am_A_Time;
+		break;
 	}
 	return data;
 }
@@ -132,6 +135,7 @@ set_attdata(load* this)
 {
 	attribute* att;
 
+	am_model.am_A_Time$att->data = (void*)&this->attribute->am_model.am_A_Time;
 }
 
 char*

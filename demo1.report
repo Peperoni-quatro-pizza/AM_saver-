@@ -1,0 +1,544 @@
+*** AutoMod 12.3 ***
+Model demo1
+Statistics at Absolute Clock = 1:00:00.00, Relative Clock = 1:00:00.00
+CPU time: Absolute: 10.371 sec, Relative: 10.371 sec
+
+Statistics for Process System "demo1"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_EnterAssembly           30     1     0.90       --     2     0     --     107.77         --
+P_CompleteAssembly        29     2     1.07       --     2     0     --     133.21         --
+P_Out(1)                  11     0     0.38       --     2     0     --     123.33         --
+P_Out(2)                  16     1     0.48       --     1     0     --     106.88         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_EnterAssembly           30     1     0.90 Infinite     2     0     --     107.77         --
+P_CompleteAssembly        29     2     1.07 Infinite     2     0     --     133.21         --
+P_Out(1)                  11     0     0.38 Infinite     2     0     --     123.33         --
+P_Out(2)                  16     1     0.48 Infinite     1     0     --     106.88         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                     30     0     0.01 Infinite     1     0     --       0.65         --
+Q_Assemble                30     1     0.89        1     1     0  0.893     107.12       0.65
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+R_Operator1               30     1     0.89        1     1     0  0.893     107.12       0.00     Up   ----      
+R_Operator2               28     1     0.46        1     1     0  0.464      59.62       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              85
+stream_L_Carton_1    0
+stream_R_Operator1_1 0
+stream_R_Operator2_1 0
+
+Statistics for Conveyor System "demo1.Conv1"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+sec1                      29     2     1.10 Infinite     2     0     --     136.44         --
+sec2                      27     0     0.23 Infinite     1     0     --      30.66         --
+sec3                      27     0     0.46 Infinite     1     0     --      61.27         --
+sec4                      11     0     0.08 Infinite     1     0     --      27.36         --
+sec5                      16     1     0.12 Infinite     1     0     --      26.91         --
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+sta1                      29     0     0.00 Infinite     1     0     --       0.00         --
+sta2                      29     2     1.07 Infinite     2     0     --     133.21         --
+staout1                   11     0     0.38 Infinite     2     0     --     123.33         --
+staout2                   16     1     0.48 Infinite     1     0     --     106.88         --
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+M_sec1                       Up              0       1.00           3600.00
+
+
+*** AutoMod 12.3 ***
+Model demo1
+Statistics at Absolute Clock = 2:00:00.00, Relative Clock = 2:00:00.00
+CPU time: Absolute: 19.259 sec, Relative: 19.259 sec
+
+Statistics for Process System "demo1"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_EnterAssembly           60     1     0.91       --     2     0     --     109.27         --
+P_CompleteAssembly        59     2     1.11       --     2     0     --     135.07         --
+P_Out(1)                  23     1     0.39       --     2     0     --     122.95         --
+P_Out(2)                  34     0     0.51       --     2     0     --     107.42         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_EnterAssembly           60     1     0.91 Infinite     2     0     --     109.27         --
+P_CompleteAssembly        59     2     1.11 Infinite     2     0     --     135.07         --
+P_Out(1)                  23     1     0.39 Infinite     2     0     --     122.95         --
+P_Out(2)                  34     0     0.51 Infinite     2     0     --     107.42         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                     60     0     0.00 Infinite     1     0     --       0.60         --
+Q_Assemble                60     1     0.91        1     1     0  0.906     108.67       0.60
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+R_Operator1               60     1     0.91        1     1     0  0.906     108.67       0.00     Up   ----      
+R_Operator2               58     1     0.48        1     1     0  0.477      59.18       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              175
+stream_L_Carton_1    0
+stream_R_Operator1_1 0
+stream_R_Operator2_1 0
+
+Statistics for Conveyor System "demo1.Conv1"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+sec1                      59     2     1.13 Infinite     2     0     --     138.41         --
+sec2                      57     0     0.24 Infinite     1     0     --      30.66         --
+sec3                      57     0     0.48 Infinite     1     0     --      61.21         --
+sec4                      23     1     0.09 Infinite     1     0     --      26.98         --
+sec5                      34     0     0.13 Infinite     1     0     --      27.45         --
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+sta1                      59     0     0.00 Infinite     1     0     --       0.00         --
+sta2                      59     2     1.11 Infinite     2     0     --     135.07         --
+staout1                   23     1     0.39 Infinite     2     0     --     122.95         --
+staout2                   34     0     0.51 Infinite     2     0     --     107.42         --
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+M_sec1                       Up              0       1.00           7200.00
+
+
+*** AutoMod 12.3 ***
+Model demo1
+Statistics at Absolute Clock = 3:00:00.00, Relative Clock = 3:00:00.00
+CPU time: Absolute: 33.407 sec, Relative: 33.407 sec
+
+Statistics for Process System "demo1"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_EnterAssembly           90     1     0.92       --     2     0     --     109.84         --
+P_CompleteAssembly        89     2     1.12       --     2     0     --     136.09         --
+P_Out(1)                  38     1     0.43       --     2     0     --     122.79         --
+P_Out(2)                  49     0     0.49       --     2     0     --     107.42         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_EnterAssembly           90     1     0.92 Infinite     2     0     --     109.84         --
+P_CompleteAssembly        89     2     1.12 Infinite     2     0     --     136.09         --
+P_Out(1)                  38     1     0.43 Infinite     2     0     --     122.79         --
+P_Out(2)                  49     0     0.49 Infinite     2     0     --     107.42         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                     90     0     0.00 Infinite     1     0     --       0.47         --
+Q_Assemble                90     1     0.91        1     1     0  0.911     109.37       0.47
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+R_Operator1               90     1     0.91        1     1     0  0.911     109.37       0.00     Up   ----      
+R_Operator2               88     1     0.48        1     1     0  0.484      59.39       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              265
+stream_L_Carton_1    0
+stream_R_Operator1_1 0
+stream_R_Operator2_1 0
+
+Statistics for Conveyor System "demo1.Conv1"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+sec1                      89     2     1.15 Infinite     2     0     --     139.48         --
+sec2                      87     0     0.25 Infinite     1     0     --      30.66         --
+sec3                      87     0     0.50 Infinite     1     0     --      61.74         --
+sec4                      38     1     0.09 Infinite     1     0     --      26.82         --
+sec5                      49     0     0.12 Infinite     1     0     --      27.45         --
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+sta1                      89     0     0.00 Infinite     1     0     --       0.00         --
+sta2                      89     2     1.12 Infinite     2     0     --     136.09         --
+staout1                   38     1     0.43 Infinite     2     0     --     122.79         --
+staout2                   49     0     0.49 Infinite     2     0     --     107.42         --
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+M_sec1                       Up              0       1.00          10800.00
+
+
+*** AutoMod 12.3 ***
+Model demo1
+Statistics at Absolute Clock = 4:00:00.00, Relative Clock = 4:00:00.00
+CPU time: Absolute: 50.461 sec, Relative: 50.461 sec
+
+Statistics for Process System "demo1"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_EnterAssembly          120     1     0.91       --     2     0     --     109.72         --
+P_CompleteAssembly       119     2     1.13       --     2     0     --     136.59         --
+P_Out(1)                  54     1     0.46       --     2     0     --     123.08         --
+P_Out(2)                  63     0     0.47       --     2     0     --     107.42         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_EnterAssembly          120     1     0.91 Infinite     2     0     --     109.72         --
+P_CompleteAssembly       119     2     1.13 Infinite     2     0     --     136.59         --
+P_Out(1)                  54     1     0.46 Infinite     2     0     --     123.08         --
+P_Out(2)                  63     0     0.47 Infinite     2     0     --     107.42         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                    120     0     0.00 Infinite     1     0     --       0.44         --
+Q_Assemble               120     1     0.91        1     1     0  0.911     109.29       0.44
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+R_Operator1              120     1     0.91        1     1     0  0.911     109.29       0.00     Up   ----      
+R_Operator2              118     1     0.49        1     1     0  0.488      59.56       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              355
+stream_L_Carton_1    0
+stream_R_Operator1_1 0
+stream_R_Operator2_1 0
+
+Statistics for Conveyor System "demo1.Conv1"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+sec1                     119     2     1.16 Infinite     2     0     --     139.99         --
+sec2                     117     0     0.25 Infinite     1     0     --      30.66         --
+sec3                     117     0     0.50 Infinite     1     0     --      62.14         --
+sec4                      54     1     0.10 Infinite     1     0     --      27.11         --
+sec5                      63     0     0.12 Infinite     1     0     --      27.45         --
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+sta1                     119     0     0.00 Infinite     1     0     --       0.00         --
+sta2                     119     2     1.13 Infinite     2     0     --     136.59         --
+staout1                   54     1     0.46 Infinite     2     0     --     123.08         --
+staout2                   63     0     0.47 Infinite     2     0     --     107.42         --
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+M_sec1                       Up              0       1.00          14400.00
+
+
+*** AutoMod 12.3 ***
+Model demo1
+Statistics at Absolute Clock = 5:00:00.00, Relative Clock = 5:00:00.00
+CPU time: Absolute: 77.365 sec, Relative: 77.365 sec
+
+Statistics for Process System "demo1"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_EnterAssembly          150     2     0.91       --     2     0     --     109.45         --
+P_CompleteAssembly       148     0     1.13       --     2     0     --     137.46         --
+P_Out(1)                  69     1     0.47       --     2     0     --     123.19         --
+P_Out(2)                  79     1     0.47       --     2     0     --     106.16         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_EnterAssembly          150     2     0.91 Infinite     2     0     --     109.45         --
+P_CompleteAssembly       148     0     1.13 Infinite     2     0     --     137.46         --
+P_Out(1)                  69     1     0.47 Infinite     2     0     --     123.19         --
+P_Out(2)                  79     1     0.47 Infinite     2     0     --     106.16         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                    150     1     0.00 Infinite     1     0     --       0.37         --
+Q_Assemble               149     1     0.91        1     1     0  0.909     109.81       0.37
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+R_Operator1              149     1     0.91        1     1     0  0.909     109.81       0.00     Up   ----      
+R_Operator2              148     0     0.49        1     1     0  0.489      59.46       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              445
+stream_L_Carton_1    0
+stream_R_Operator1_1 0
+stream_R_Operator2_1 0
+
+Statistics for Conveyor System "demo1.Conv1"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+sec1                     148     0     1.16 Infinite     2     0     --     140.92         --
+sec2                     148     1     0.25 Infinite     1     0     --      30.51         --
+sec3                     147     0     0.51 Infinite     1     0     --      62.27         --
+sec4                      69     1     0.10 Infinite     1     0     --      27.22         --
+sec5                      78     0     0.12 Infinite     1     0     --      27.45         --
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+sta1                     148     0     0.00 Infinite     1     0     --       0.00         --
+sta2                     148     0     1.13 Infinite     2     0     --     137.46         --
+staout1                   69     1     0.47 Infinite     2     0     --     123.19         --
+staout2                   79     1     0.47 Infinite     2     0     --     106.16         --
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+M_sec1                       Up              0       1.00          18000.00
+
+
+*** AutoMod 12.3 ***
+Model demo1
+Statistics at Absolute Clock = 6:00:00.00, Relative Clock = 6:00:00.00
+CPU time: Absolute: 99.62 sec, Relative: 99.62 sec
+
+Statistics for Process System "demo1"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_EnterAssembly          180     1     0.92       --     2     0     --     110.10         --
+P_CompleteAssembly       179     2     1.13       --     2     0     --     136.39         --
+P_Out(1)                  88     1     0.50       --     2     0     --     123.17         --
+P_Out(2)                  89     0     0.44       --     2     0     --     107.42         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_EnterAssembly          180     1     0.92 Infinite     2     0     --     110.10         --
+P_CompleteAssembly       179     2     1.13 Infinite     2     0     --     136.39         --
+P_Out(1)                  88     1     0.50 Infinite     2     0     --     123.17         --
+P_Out(2)                  89     0     0.44 Infinite     2     0     --     107.42         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                    180     0     0.00 Infinite     1     0     --       0.42         --
+Q_Assemble               180     1     0.91        1     1     0  0.914     109.69       0.42
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+R_Operator1              180     1     0.91        1     1     0  0.914     109.69       0.00     Up   ----      
+R_Operator2              178     1     0.49        1     1     0  0.487      59.13       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              535
+stream_L_Carton_1    0
+stream_R_Operator1_1 0
+stream_R_Operator2_1 0
+
+Statistics for Conveyor System "demo1.Conv1"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+sec1                     179     2     1.16 Infinite     2     0     --     139.81         --
+sec2                     177     0     0.25 Infinite     1     0     --      30.66         --
+sec3                     177     0     0.51 Infinite     1     0     --      62.71         --
+sec4                      88     1     0.11 Infinite     1     0     --      27.20         --
+sec5                      89     0     0.11 Infinite     1     0     --      27.45         --
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+sta1                     179     0     0.00 Infinite     1     0     --       0.00         --
+sta2                     179     2     1.13 Infinite     2     0     --     136.39         --
+staout1                   88     1     0.50 Infinite     2     0     --     123.17         --
+staout2                   89     0     0.44 Infinite     2     0     --     107.42         --
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+M_sec1                       Up              0       1.00          21600.00
+
+
+*** AutoMod 12.3 ***
+Model demo1
+Statistics at Absolute Clock = 7:00:00.00, Relative Clock = 7:00:00.00
+CPU time: Absolute: 128.076 sec, Relative: 128.076 sec
+
+Statistics for Process System "demo1"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_EnterAssembly          210     1     0.92       --     2     0     --     109.87         --
+P_CompleteAssembly       209     2     1.13       --     2     0     --     136.72         --
+P_Out(1)                 105     1     0.51       --     2     0     --     123.14         --
+P_Out(2)                 102     0     0.43       --     2     0     --     107.42         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_EnterAssembly          210     1     0.92 Infinite     2     0     --     109.87         --
+P_CompleteAssembly       209     2     1.13 Infinite     2     0     --     136.72         --
+P_Out(1)                 105     1     0.51 Infinite     2     0     --     123.14         --
+P_Out(2)                 102     0     0.43 Infinite     2     0     --     107.42         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                    210     0     0.00 Infinite     1     0     --       0.38         --
+Q_Assemble               210     1     0.91        1     1     0  0.912     109.49       0.38
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+R_Operator1              210     1     0.91        1     1     0  0.912     109.49       0.00     Up   ----      
+R_Operator2              208     1     0.49        1     1     0  0.489      59.27       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              625
+stream_L_Carton_1    0
+stream_R_Operator1_1 0
+stream_R_Operator2_1 0
+
+Statistics for Conveyor System "demo1.Conv1"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+sec1                     209     2     1.16 Infinite     2     0     --     140.15         --
+sec2                     207     0     0.25 Infinite     1     0     --      30.66         --
+sec3                     207     0     0.52 Infinite     1     0     --      62.87         --
+sec4                     105     1     0.11 Infinite     1     0     --      27.18         --
+sec5                     102     0     0.11 Infinite     1     0     --      27.45         --
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+sta1                     209     0     0.00 Infinite     1     0     --       0.00         --
+sta2                     209     2     1.13 Infinite     2     0     --     136.72         --
+staout1                  105     1     0.51 Infinite     2     0     --     123.14         --
+staout2                  102     0     0.43 Infinite     2     0     --     107.42         --
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+M_sec1                       Up              0       1.00          25200.00
+
+
+*** AutoMod 12.3 ***
+Model demo1
+Statistics at Absolute Clock = 8:00:00.00, Relative Clock = 8:00:00.00
+CPU time: Absolute: 161.441 sec, Relative: 161.441 sec
+
+Statistics for Process System "demo1"
+
+Process Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_EnterAssembly          240     1     0.92       --     2     0     --     109.98         --
+P_CompleteAssembly       239     2     1.14       --     2     0     --     136.89         --
+P_Out(1)                 118     0     0.51       --     2     0     --     123.33         --
+P_Out(2)                 119     1     0.44       --     2     0     --     107.36         --
+
+Process Traffic Limit Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+P_EnterAssembly          240     1     0.92 Infinite     2     0     --     109.98         --
+P_CompleteAssembly       239     2     1.14 Infinite     2     0     --     136.89         --
+P_Out(1)                 118     0     0.51 Infinite     2     0     --     123.33         --
+P_Out(2)                 119     1     0.44 Infinite     2     0     --     107.36         --
+
+Queue Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+Space                    240     0     0.00 Infinite     1     0     --       0.39         --
+Q_Assemble               240     1     0.91        1     1     0  0.913     109.58       0.39
+
+Resource Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
+====================================================================================================
+R_Operator1              240     1     0.91        1     1     0  0.913     109.58       0.00     Up   ----      
+R_Operator2              238     1     0.49        1     1     0  0.491      59.46       0.00     Up   ----      
+
+Random Number Streams
+Name                 Total 
+============================
+stream0              715
+stream_L_Carton_1    0
+stream_R_Operator1_1 0
+stream_R_Operator2_1 0
+
+Statistics for Conveyor System "demo1.Conv1"
+
+Section Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+sec1                     239     2     1.16 Infinite     2     0     --     140.32         --
+sec2                     237     0     0.25 Infinite     1     0     --      30.66         --
+sec3                     237     0     0.52 Infinite     1     0     --      62.72         --
+sec4                     118     0     0.11 Infinite     1     0     --      27.36         --
+sec5                     119     1     0.11 Infinite     1     0     --      27.39         --
+
+Station Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+sta1                     239     0     0.00 Infinite     1     0     --       0.00         --
+sta2                     239     2     1.14 Infinite     2     0     --     136.89         --
+staout1                  118     0     0.51 Infinite     2     0     --     123.33         --
+staout2                  119     1     0.44 Infinite     2     0     --     107.36         --
+
+Motor Statistics
+Name                     Status     Total Down       %_Up        Av_Time Up
+======================================================================
+M_sec1                       Up              0       1.00          28800.00
+
+

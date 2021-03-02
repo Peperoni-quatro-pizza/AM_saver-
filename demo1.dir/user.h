@@ -1,9 +1,9 @@
 // user.h
 // AutoMod 12.3.1 Generated File
 // Build: 2152.82
-// Model name:	Demo1
-// Model path:	C:\Users\Seong taek Lim\Desktop\Tuto\demo1.dir\
-// Generated:	Mon Mar 01 17:37:28 2021
+// Model name:	demo1
+// Model path:	C:\Users\LST\Desktop\IN Lab\AM_saver-\demo1.dir\
+// Generated:	Tue Mar 02 17:42:09 2021
 // Applied/AutoMod Licensee Confidential
 // NO DISTRIBUTION OR REPRODUCTION RIGHTS GRANTED!
 // Copyright (c) 1988-2010 Applied Materials All rights reserved.
@@ -144,7 +144,7 @@ extern ASIWindow* imp_SimKanbanStatusWin;
 
 typedef struct loadatt {
 	struct {
-		int am_onlyOne;
+		ASITime am_A_Time;	/* A_Time */
 	} am_model;
 } loadatt;
 
