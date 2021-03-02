@@ -1,0 +1,9 @@
+Processing build commands for the model demo1...
+demo1~model.c
+demo1~init1.c
+mycode.c
+Linking demo1.dll...
+   Creating library demo1.lib and object demo1.exp
+Generating demo1.exe...
+        1개 파일이 복사되었습니다.
+
