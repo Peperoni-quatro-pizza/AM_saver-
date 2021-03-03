@@ -322,6 +322,37 @@ QUEUE name Q_Assemble 0 cap 1
 4 4 4 4 4 0 0
 end
 
+QUEUE name Q_Wait 2 cap 2147483647
+
+	dis 1 Stacking OTT_LDDISP
+		picpos begx 9.96687253937008 begy -64.3259251968504 endx 10.9668725393701 endy -64.3259251968504
+
+	dis 2 Stacking OTT_LDDISP
+		picpos begx 25.670529855643 begy -63.8667519685039 endx 26.670529855643 endy -63.8667519685039
+
+	UserDef	template Feet
+700 17
+-1 -1 0 1 1 none
+1
+310 17
+-1 -1 0 1 0 none
+4 4 4 4 4 0 0
+end
+
+BLOCK name B_Merge 4 cap 1
+ dis 1 picpos begx -9.17724491469816 begy -77.8785367454068 endx -8.17724491469816 endy -77.8785367454068 scx 1.5 scy 1.5 scz 1.5
+ dis 2 picpos begx -7.87761072834646 begy -68.735032808399 endx -6.87761072834646 endy -68.735032808399 scx 1.5 scy 1.5 scz 1.5
+ dis 3 picpos begx 71.9294816272966 begy -70.3075918635171 endx 72.9294816272966 endy -70.3075918635171 scx 1.5 scy 1.5 scz 1.5
+ dis 4 picpos begx 78.1214107611549 begy -129.573202099738 endx 79.1214107611549 endy -129.573202099738 scx 1.5 scy 1.5 scz 1.5
+
+	UserDef	template Feet
+700 17
+-1 -1 0 1 1 none
+1
+310 17
+-1 -1 0 1 0 none
+4 4 4 4 4 0 0
+end
 ATT name A_Time 0 type Time
 VAR name V_Numdone 0 type Integer
 RNSTREAM stream0 0 type CMRG flags 1

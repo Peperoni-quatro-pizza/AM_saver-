@@ -1,7 +1,7 @@
 *** AutoMod 12.3 ***
 Model demo1
 Statistics at Absolute Clock = 1:00:00.00, Relative Clock = 1:00:00.00
-CPU time: Absolute: 10.371 sec, Relative: 10.371 sec
+CPU time: Absolute: 15.568 sec, Relative: 15.568 sec
 
 Statistics for Process System "demo1"
 
@@ -65,11 +65,81 @@ Name                     Status     Total Down       %_Up        Av_Time Up
 ======================================================================
 M_sec1                       Up              0       1.00           3600.00
 
+Statistics for Path Mover System "demo1.Agv"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+path1                      0     0     0.00 Infinite     0     0     --       0.00         --
+path2                      0     0     0.00 Infinite     0     0     --       0.00         --
+path3                      0     0     0.00 Infinite     0     0     --       0.00         --
+path4                      0     0     0.00 Infinite     0     0     --       0.00         --
+path5                      0     0     0.00 Infinite     0     0     --       0.00         --
+path6                      0     0     0.00 Infinite     0     0     --       0.00         --
+path7                      0     0     0.00 Infinite     0     0     --       0.00         --
+path8                      0     0     0.00 Infinite     0     0     --       0.00         --
+path9                      0     0     0.00 Infinite     0     0     --       0.00         --
+path10                     0     0     0.00 Infinite     0     0     --       0.00         --
+path11                     0     0     0.00 Infinite     0     0     --       0.00         --
+path12                     0     0     0.00 Infinite     0     0     --       0.00         --
+path13                     0     0     0.00 Infinite     0     0     --       0.00         --
+path14                     0     0     0.00 Infinite     0     0     --       0.00         --
+path15                     0     0     0.00 Infinite     0     0     --       0.00         --
+path16                     0     0     0.00 Infinite     0     0     --       0.00         --
+path17                     0     0     0.00 Infinite     0     0     --       0.00         --
+path18                     0     0     0.00 Infinite     0     0     --       0.00         --
+path19                     0     0     0.00 Infinite     0     0     --       0.00         --
+path20                     0     0     0.00 Infinite     0     0     --       0.00         --
+path21                     0     0     0.00 Infinite     0     0     --       0.00         --
+path22                     0     0     0.00 Infinite     0     0     --       0.00         --
+path23                     0     0     0.00 Infinite     0     0     --       0.00         --
+path24                     0     0     0.00 Infinite     0     0     --       0.00         --
+path25                     0     0     0.00 Infinite     0     0     --       0.00         --
+path26                     0     0     0.00 Infinite     0     0     --       0.00         --
+path27                     0     0     0.00 Infinite     0     0     --       0.00         --
+path28                     0     0     0.00 Infinite     0     0     --       0.00         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.000      0    0.00    0.000      0    0.00    0.000      0    0.00    0.000
+All DefVehicle:
+   0.000      0    0.00    0.000      0    0.00    0.000      0    0.00    0.000
+
+The Average Capacity Lost Due To Congestion is 0.0 Percent
+Of Total Capacity Which is 0.0 Vehicles
+
+Vehicle Segment Statistics
+Vehicle                Total      Cur    Average Capacity      Max      Min
+==========================================================================================================
+DefVehicle:
+DefVehicle(1)              1        1       1.00 Infinite        1        0
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        No state            3600.00 <None>               <null>               Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle      3600.00        3600.00        3600.00
+
 
 *** AutoMod 12.3 ***
 Model demo1
 Statistics at Absolute Clock = 2:00:00.00, Relative Clock = 2:00:00.00
-CPU time: Absolute: 19.259 sec, Relative: 19.259 sec
+CPU time: Absolute: 22.685 sec, Relative: 22.685 sec
 
 Statistics for Process System "demo1"
 
@@ -133,11 +203,81 @@ Name                     Status     Total Down       %_Up        Av_Time Up
 ======================================================================
 M_sec1                       Up              0       1.00           7200.00
 
+Statistics for Path Mover System "demo1.Agv"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+path1                      0     0     0.00 Infinite     0     0     --       0.00         --
+path2                      0     0     0.00 Infinite     0     0     --       0.00         --
+path3                      0     0     0.00 Infinite     0     0     --       0.00         --
+path4                      0     0     0.00 Infinite     0     0     --       0.00         --
+path5                      0     0     0.00 Infinite     0     0     --       0.00         --
+path6                      0     0     0.00 Infinite     0     0     --       0.00         --
+path7                      0     0     0.00 Infinite     0     0     --       0.00         --
+path8                      0     0     0.00 Infinite     0     0     --       0.00         --
+path9                      0     0     0.00 Infinite     0     0     --       0.00         --
+path10                     0     0     0.00 Infinite     0     0     --       0.00         --
+path11                     0     0     0.00 Infinite     0     0     --       0.00         --
+path12                     0     0     0.00 Infinite     0     0     --       0.00         --
+path13                     0     0     0.00 Infinite     0     0     --       0.00         --
+path14                     0     0     0.00 Infinite     0     0     --       0.00         --
+path15                     0     0     0.00 Infinite     0     0     --       0.00         --
+path16                     0     0     0.00 Infinite     0     0     --       0.00         --
+path17                     0     0     0.00 Infinite     0     0     --       0.00         --
+path18                     0     0     0.00 Infinite     0     0     --       0.00         --
+path19                     0     0     0.00 Infinite     0     0     --       0.00         --
+path20                     0     0     0.00 Infinite     0     0     --       0.00         --
+path21                     0     0     0.00 Infinite     0     0     --       0.00         --
+path22                     0     0     0.00 Infinite     0     0     --       0.00         --
+path23                     0     0     0.00 Infinite     0     0     --       0.00         --
+path24                     0     0     0.00 Infinite     0     0     --       0.00         --
+path25                     0     0     0.00 Infinite     0     0     --       0.00         --
+path26                     0     0     0.00 Infinite     0     0     --       0.00         --
+path27                     0     0     0.00 Infinite     0     0     --       0.00         --
+path28                     0     0     0.00 Infinite     0     0     --       0.00         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.000      0    0.00    0.000      0    0.00    0.000      0    0.00    0.000
+All DefVehicle:
+   0.000      0    0.00    0.000      0    0.00    0.000      0    0.00    0.000
+
+The Average Capacity Lost Due To Congestion is 0.0 Percent
+Of Total Capacity Which is 0.0 Vehicles
+
+Vehicle Segment Statistics
+Vehicle                Total      Cur    Average Capacity      Max      Min
+==========================================================================================================
+DefVehicle:
+DefVehicle(1)              1        1       1.00 Infinite        1        0
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        No state            7200.00 <None>               <null>               Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle      7200.00        7200.00        7200.00
+
 
 *** AutoMod 12.3 ***
 Model demo1
 Statistics at Absolute Clock = 3:00:00.00, Relative Clock = 3:00:00.00
-CPU time: Absolute: 33.407 sec, Relative: 33.407 sec
+CPU time: Absolute: 22.792 sec, Relative: 22.792 sec
 
 Statistics for Process System "demo1"
 
@@ -201,11 +341,81 @@ Name                     Status     Total Down       %_Up        Av_Time Up
 ======================================================================
 M_sec1                       Up              0       1.00          10800.00
 
+Statistics for Path Mover System "demo1.Agv"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+path1                      0     0     0.00 Infinite     0     0     --       0.00         --
+path2                      0     0     0.00 Infinite     0     0     --       0.00         --
+path3                      0     0     0.00 Infinite     0     0     --       0.00         --
+path4                      0     0     0.00 Infinite     0     0     --       0.00         --
+path5                      0     0     0.00 Infinite     0     0     --       0.00         --
+path6                      0     0     0.00 Infinite     0     0     --       0.00         --
+path7                      0     0     0.00 Infinite     0     0     --       0.00         --
+path8                      0     0     0.00 Infinite     0     0     --       0.00         --
+path9                      0     0     0.00 Infinite     0     0     --       0.00         --
+path10                     0     0     0.00 Infinite     0     0     --       0.00         --
+path11                     0     0     0.00 Infinite     0     0     --       0.00         --
+path12                     0     0     0.00 Infinite     0     0     --       0.00         --
+path13                     0     0     0.00 Infinite     0     0     --       0.00         --
+path14                     0     0     0.00 Infinite     0     0     --       0.00         --
+path15                     0     0     0.00 Infinite     0     0     --       0.00         --
+path16                     0     0     0.00 Infinite     0     0     --       0.00         --
+path17                     0     0     0.00 Infinite     0     0     --       0.00         --
+path18                     0     0     0.00 Infinite     0     0     --       0.00         --
+path19                     0     0     0.00 Infinite     0     0     --       0.00         --
+path20                     0     0     0.00 Infinite     0     0     --       0.00         --
+path21                     0     0     0.00 Infinite     0     0     --       0.00         --
+path22                     0     0     0.00 Infinite     0     0     --       0.00         --
+path23                     0     0     0.00 Infinite     0     0     --       0.00         --
+path24                     0     0     0.00 Infinite     0     0     --       0.00         --
+path25                     0     0     0.00 Infinite     0     0     --       0.00         --
+path26                     0     0     0.00 Infinite     0     0     --       0.00         --
+path27                     0     0     0.00 Infinite     0     0     --       0.00         --
+path28                     0     0     0.00 Infinite     0     0     --       0.00         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.000      0    0.00    0.000      0    0.00    0.000      0    0.00    0.000
+All DefVehicle:
+   0.000      0    0.00    0.000      0    0.00    0.000      0    0.00    0.000
+
+The Average Capacity Lost Due To Congestion is 0.0 Percent
+Of Total Capacity Which is 0.0 Vehicles
+
+Vehicle Segment Statistics
+Vehicle                Total      Cur    Average Capacity      Max      Min
+==========================================================================================================
+DefVehicle:
+DefVehicle(1)              1        1       1.00 Infinite        1        0
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        No state           10800.00 <None>               <null>               Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle     10800.00       10800.00       10800.00
+
 
 *** AutoMod 12.3 ***
 Model demo1
 Statistics at Absolute Clock = 4:00:00.00, Relative Clock = 4:00:00.00
-CPU time: Absolute: 50.461 sec, Relative: 50.461 sec
+CPU time: Absolute: 22.902 sec, Relative: 22.902 sec
 
 Statistics for Process System "demo1"
 
@@ -269,11 +479,81 @@ Name                     Status     Total Down       %_Up        Av_Time Up
 ======================================================================
 M_sec1                       Up              0       1.00          14400.00
 
+Statistics for Path Mover System "demo1.Agv"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+path1                      0     0     0.00 Infinite     0     0     --       0.00         --
+path2                      0     0     0.00 Infinite     0     0     --       0.00         --
+path3                      0     0     0.00 Infinite     0     0     --       0.00         --
+path4                      0     0     0.00 Infinite     0     0     --       0.00         --
+path5                      0     0     0.00 Infinite     0     0     --       0.00         --
+path6                      0     0     0.00 Infinite     0     0     --       0.00         --
+path7                      0     0     0.00 Infinite     0     0     --       0.00         --
+path8                      0     0     0.00 Infinite     0     0     --       0.00         --
+path9                      0     0     0.00 Infinite     0     0     --       0.00         --
+path10                     0     0     0.00 Infinite     0     0     --       0.00         --
+path11                     0     0     0.00 Infinite     0     0     --       0.00         --
+path12                     0     0     0.00 Infinite     0     0     --       0.00         --
+path13                     0     0     0.00 Infinite     0     0     --       0.00         --
+path14                     0     0     0.00 Infinite     0     0     --       0.00         --
+path15                     0     0     0.00 Infinite     0     0     --       0.00         --
+path16                     0     0     0.00 Infinite     0     0     --       0.00         --
+path17                     0     0     0.00 Infinite     0     0     --       0.00         --
+path18                     0     0     0.00 Infinite     0     0     --       0.00         --
+path19                     0     0     0.00 Infinite     0     0     --       0.00         --
+path20                     0     0     0.00 Infinite     0     0     --       0.00         --
+path21                     0     0     0.00 Infinite     0     0     --       0.00         --
+path22                     0     0     0.00 Infinite     0     0     --       0.00         --
+path23                     0     0     0.00 Infinite     0     0     --       0.00         --
+path24                     0     0     0.00 Infinite     0     0     --       0.00         --
+path25                     0     0     0.00 Infinite     0     0     --       0.00         --
+path26                     0     0     0.00 Infinite     0     0     --       0.00         --
+path27                     0     0     0.00 Infinite     0     0     --       0.00         --
+path28                     0     0     0.00 Infinite     0     0     --       0.00         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.000      0    0.00    0.000      0    0.00    0.000      0    0.00    0.000
+All DefVehicle:
+   0.000      0    0.00    0.000      0    0.00    0.000      0    0.00    0.000
+
+The Average Capacity Lost Due To Congestion is 0.0 Percent
+Of Total Capacity Which is 0.0 Vehicles
+
+Vehicle Segment Statistics
+Vehicle                Total      Cur    Average Capacity      Max      Min
+==========================================================================================================
+DefVehicle:
+DefVehicle(1)              1        1       1.00 Infinite        1        0
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        No state           14400.00 <None>               <null>               Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle     14400.00       14400.00       14400.00
+
 
 *** AutoMod 12.3 ***
 Model demo1
 Statistics at Absolute Clock = 5:00:00.00, Relative Clock = 5:00:00.00
-CPU time: Absolute: 77.365 sec, Relative: 77.365 sec
+CPU time: Absolute: 23.015 sec, Relative: 23.015 sec
 
 Statistics for Process System "demo1"
 
@@ -337,11 +617,81 @@ Name                     Status     Total Down       %_Up        Av_Time Up
 ======================================================================
 M_sec1                       Up              0       1.00          18000.00
 
+Statistics for Path Mover System "demo1.Agv"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+path1                      0     0     0.00 Infinite     0     0     --       0.00         --
+path2                      0     0     0.00 Infinite     0     0     --       0.00         --
+path3                      0     0     0.00 Infinite     0     0     --       0.00         --
+path4                      0     0     0.00 Infinite     0     0     --       0.00         --
+path5                      0     0     0.00 Infinite     0     0     --       0.00         --
+path6                      0     0     0.00 Infinite     0     0     --       0.00         --
+path7                      0     0     0.00 Infinite     0     0     --       0.00         --
+path8                      0     0     0.00 Infinite     0     0     --       0.00         --
+path9                      0     0     0.00 Infinite     0     0     --       0.00         --
+path10                     0     0     0.00 Infinite     0     0     --       0.00         --
+path11                     0     0     0.00 Infinite     0     0     --       0.00         --
+path12                     0     0     0.00 Infinite     0     0     --       0.00         --
+path13                     0     0     0.00 Infinite     0     0     --       0.00         --
+path14                     0     0     0.00 Infinite     0     0     --       0.00         --
+path15                     0     0     0.00 Infinite     0     0     --       0.00         --
+path16                     0     0     0.00 Infinite     0     0     --       0.00         --
+path17                     0     0     0.00 Infinite     0     0     --       0.00         --
+path18                     0     0     0.00 Infinite     0     0     --       0.00         --
+path19                     0     0     0.00 Infinite     0     0     --       0.00         --
+path20                     0     0     0.00 Infinite     0     0     --       0.00         --
+path21                     0     0     0.00 Infinite     0     0     --       0.00         --
+path22                     0     0     0.00 Infinite     0     0     --       0.00         --
+path23                     0     0     0.00 Infinite     0     0     --       0.00         --
+path24                     0     0     0.00 Infinite     0     0     --       0.00         --
+path25                     0     0     0.00 Infinite     0     0     --       0.00         --
+path26                     0     0     0.00 Infinite     0     0     --       0.00         --
+path27                     0     0     0.00 Infinite     0     0     --       0.00         --
+path28                     0     0     0.00 Infinite     0     0     --       0.00         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.000      0    0.00    0.000      0    0.00    0.000      0    0.00    0.000
+All DefVehicle:
+   0.000      0    0.00    0.000      0    0.00    0.000      0    0.00    0.000
+
+The Average Capacity Lost Due To Congestion is 0.0 Percent
+Of Total Capacity Which is 0.0 Vehicles
+
+Vehicle Segment Statistics
+Vehicle                Total      Cur    Average Capacity      Max      Min
+==========================================================================================================
+DefVehicle:
+DefVehicle(1)              1        1       1.00 Infinite        1        0
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        No state           18000.00 <None>               <null>               Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle     18000.00       18000.00       18000.00
+
 
 *** AutoMod 12.3 ***
 Model demo1
 Statistics at Absolute Clock = 6:00:00.00, Relative Clock = 6:00:00.00
-CPU time: Absolute: 99.62 sec, Relative: 99.62 sec
+CPU time: Absolute: 23.119 sec, Relative: 23.119 sec
 
 Statistics for Process System "demo1"
 
@@ -405,11 +755,81 @@ Name                     Status     Total Down       %_Up        Av_Time Up
 ======================================================================
 M_sec1                       Up              0       1.00          21600.00
 
+Statistics for Path Mover System "demo1.Agv"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+path1                      0     0     0.00 Infinite     0     0     --       0.00         --
+path2                      0     0     0.00 Infinite     0     0     --       0.00         --
+path3                      0     0     0.00 Infinite     0     0     --       0.00         --
+path4                      0     0     0.00 Infinite     0     0     --       0.00         --
+path5                      0     0     0.00 Infinite     0     0     --       0.00         --
+path6                      0     0     0.00 Infinite     0     0     --       0.00         --
+path7                      0     0     0.00 Infinite     0     0     --       0.00         --
+path8                      0     0     0.00 Infinite     0     0     --       0.00         --
+path9                      0     0     0.00 Infinite     0     0     --       0.00         --
+path10                     0     0     0.00 Infinite     0     0     --       0.00         --
+path11                     0     0     0.00 Infinite     0     0     --       0.00         --
+path12                     0     0     0.00 Infinite     0     0     --       0.00         --
+path13                     0     0     0.00 Infinite     0     0     --       0.00         --
+path14                     0     0     0.00 Infinite     0     0     --       0.00         --
+path15                     0     0     0.00 Infinite     0     0     --       0.00         --
+path16                     0     0     0.00 Infinite     0     0     --       0.00         --
+path17                     0     0     0.00 Infinite     0     0     --       0.00         --
+path18                     0     0     0.00 Infinite     0     0     --       0.00         --
+path19                     0     0     0.00 Infinite     0     0     --       0.00         --
+path20                     0     0     0.00 Infinite     0     0     --       0.00         --
+path21                     0     0     0.00 Infinite     0     0     --       0.00         --
+path22                     0     0     0.00 Infinite     0     0     --       0.00         --
+path23                     0     0     0.00 Infinite     0     0     --       0.00         --
+path24                     0     0     0.00 Infinite     0     0     --       0.00         --
+path25                     0     0     0.00 Infinite     0     0     --       0.00         --
+path26                     0     0     0.00 Infinite     0     0     --       0.00         --
+path27                     0     0     0.00 Infinite     0     0     --       0.00         --
+path28                     0     0     0.00 Infinite     0     0     --       0.00         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.000      0    0.00    0.000      0    0.00    0.000      0    0.00    0.000
+All DefVehicle:
+   0.000      0    0.00    0.000      0    0.00    0.000      0    0.00    0.000
+
+The Average Capacity Lost Due To Congestion is 0.0 Percent
+Of Total Capacity Which is 0.0 Vehicles
+
+Vehicle Segment Statistics
+Vehicle                Total      Cur    Average Capacity      Max      Min
+==========================================================================================================
+DefVehicle:
+DefVehicle(1)              1        1       1.00 Infinite        1        0
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        No state           21600.00 <None>               <null>               Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle     21600.00       21600.00       21600.00
+
 
 *** AutoMod 12.3 ***
 Model demo1
 Statistics at Absolute Clock = 7:00:00.00, Relative Clock = 7:00:00.00
-CPU time: Absolute: 128.076 sec, Relative: 128.076 sec
+CPU time: Absolute: 23.231 sec, Relative: 23.231 sec
 
 Statistics for Process System "demo1"
 
@@ -473,11 +893,81 @@ Name                     Status     Total Down       %_Up        Av_Time Up
 ======================================================================
 M_sec1                       Up              0       1.00          25200.00
 
+Statistics for Path Mover System "demo1.Agv"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+path1                      0     0     0.00 Infinite     0     0     --       0.00         --
+path2                      0     0     0.00 Infinite     0     0     --       0.00         --
+path3                      0     0     0.00 Infinite     0     0     --       0.00         --
+path4                      0     0     0.00 Infinite     0     0     --       0.00         --
+path5                      0     0     0.00 Infinite     0     0     --       0.00         --
+path6                      0     0     0.00 Infinite     0     0     --       0.00         --
+path7                      0     0     0.00 Infinite     0     0     --       0.00         --
+path8                      0     0     0.00 Infinite     0     0     --       0.00         --
+path9                      0     0     0.00 Infinite     0     0     --       0.00         --
+path10                     0     0     0.00 Infinite     0     0     --       0.00         --
+path11                     0     0     0.00 Infinite     0     0     --       0.00         --
+path12                     0     0     0.00 Infinite     0     0     --       0.00         --
+path13                     0     0     0.00 Infinite     0     0     --       0.00         --
+path14                     0     0     0.00 Infinite     0     0     --       0.00         --
+path15                     0     0     0.00 Infinite     0     0     --       0.00         --
+path16                     0     0     0.00 Infinite     0     0     --       0.00         --
+path17                     0     0     0.00 Infinite     0     0     --       0.00         --
+path18                     0     0     0.00 Infinite     0     0     --       0.00         --
+path19                     0     0     0.00 Infinite     0     0     --       0.00         --
+path20                     0     0     0.00 Infinite     0     0     --       0.00         --
+path21                     0     0     0.00 Infinite     0     0     --       0.00         --
+path22                     0     0     0.00 Infinite     0     0     --       0.00         --
+path23                     0     0     0.00 Infinite     0     0     --       0.00         --
+path24                     0     0     0.00 Infinite     0     0     --       0.00         --
+path25                     0     0     0.00 Infinite     0     0     --       0.00         --
+path26                     0     0     0.00 Infinite     0     0     --       0.00         --
+path27                     0     0     0.00 Infinite     0     0     --       0.00         --
+path28                     0     0     0.00 Infinite     0     0     --       0.00         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.000      0    0.00    0.000      0    0.00    0.000      0    0.00    0.000
+All DefVehicle:
+   0.000      0    0.00    0.000      0    0.00    0.000      0    0.00    0.000
+
+The Average Capacity Lost Due To Congestion is 0.0 Percent
+Of Total Capacity Which is 0.0 Vehicles
+
+Vehicle Segment Statistics
+Vehicle                Total      Cur    Average Capacity      Max      Min
+==========================================================================================================
+DefVehicle:
+DefVehicle(1)              1        1       1.00 Infinite        1        0
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        No state           25200.00 <None>               <null>               Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle     25200.00       25200.00       25200.00
+
 
 *** AutoMod 12.3 ***
 Model demo1
 Statistics at Absolute Clock = 8:00:00.00, Relative Clock = 8:00:00.00
-CPU time: Absolute: 161.441 sec, Relative: 161.441 sec
+CPU time: Absolute: 23.332 sec, Relative: 23.332 sec
 
 Statistics for Process System "demo1"
 
@@ -540,5 +1030,75 @@ Motor Statistics
 Name                     Status     Total Down       %_Up        Av_Time Up
 ======================================================================
 M_sec1                       Up              0       1.00          28800.00
+
+Statistics for Path Mover System "demo1.Agv"
+
+Guide Path Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+path1                      0     0     0.00 Infinite     0     0     --       0.00         --
+path2                      0     0     0.00 Infinite     0     0     --       0.00         --
+path3                      0     0     0.00 Infinite     0     0     --       0.00         --
+path4                      0     0     0.00 Infinite     0     0     --       0.00         --
+path5                      0     0     0.00 Infinite     0     0     --       0.00         --
+path6                      0     0     0.00 Infinite     0     0     --       0.00         --
+path7                      0     0     0.00 Infinite     0     0     --       0.00         --
+path8                      0     0     0.00 Infinite     0     0     --       0.00         --
+path9                      0     0     0.00 Infinite     0     0     --       0.00         --
+path10                     0     0     0.00 Infinite     0     0     --       0.00         --
+path11                     0     0     0.00 Infinite     0     0     --       0.00         --
+path12                     0     0     0.00 Infinite     0     0     --       0.00         --
+path13                     0     0     0.00 Infinite     0     0     --       0.00         --
+path14                     0     0     0.00 Infinite     0     0     --       0.00         --
+path15                     0     0     0.00 Infinite     0     0     --       0.00         --
+path16                     0     0     0.00 Infinite     0     0     --       0.00         --
+path17                     0     0     0.00 Infinite     0     0     --       0.00         --
+path18                     0     0     0.00 Infinite     0     0     --       0.00         --
+path19                     0     0     0.00 Infinite     0     0     --       0.00         --
+path20                     0     0     0.00 Infinite     0     0     --       0.00         --
+path21                     0     0     0.00 Infinite     0     0     --       0.00         --
+path22                     0     0     0.00 Infinite     0     0     --       0.00         --
+path23                     0     0     0.00 Infinite     0     0     --       0.00         --
+path24                     0     0     0.00 Infinite     0     0     --       0.00         --
+path25                     0     0     0.00 Infinite     0     0     --       0.00         --
+path26                     0     0     0.00 Infinite     0     0     --       0.00         --
+path27                     0     0     0.00 Infinite     0     0     --       0.00         --
+path28                     0     0     0.00 Infinite     0     0     --       0.00         --
+
+Control Point Statistics
+Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
+========================================================================================
+
+Vehicle Statistics
+       Delivering              Retrieving            Going To Park       Parking
+ Percent        Average  Percent        Average  Percent        Average  Percent
+Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
+  Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
+================================================================================
+DefVehicle:
+   0.000      0    0.00    0.000      0    0.00    0.000      0    0.00    0.000
+All DefVehicle:
+   0.000      0    0.00    0.000      0    0.00    0.000      0    0.00    0.000
+
+The Average Capacity Lost Due To Congestion is 0.0 Percent
+Of Total Capacity Which is 0.0 Vehicles
+
+Vehicle Segment Statistics
+Vehicle                Total      Cur    Average Capacity      Max      Min
+==========================================================================================================
+DefVehicle:
+DefVehicle(1)              1        1       1.00 Infinite        1        0
+
+Current Status Of Vehicles
+                                        Time In  Current              Destination          Load On or
+Vehicle              Status             Cur Status Location             Location             Claimed By Veh
+==========================================================================================================
+DefVehicle(1)        No state           28800.00 <None>               <null>               Empty          
+
+Current Status Summary
+              Average Time   Maximum Time   Minimum Time
+Type         In Cur Status   In Cur Status  In Cur Status
+========================================================
+   DefVehicle     28800.00       28800.00       28800.00
 
 

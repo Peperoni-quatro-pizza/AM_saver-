@@ -1,5 +1,8 @@
 0.00: Starting.
 0.00: Datafiles have been read. Initializing model.
+0.00: No valid starting location that has work or park list is in system 'Agv'.
+0.00: The system may lock up.
+0.00: WARNING: There is no path from a node at 0.0173438 ft along Agv:path23.
 0.00: Model image prepared... Ready to simulate.
 460.41: Load 1 (L_Carton) Time in system = 340.411441
 606.55: Load 2 (L_Carton) Time in system = 366.551877
@@ -36,6 +39,7 @@
 4303.72: Load 33 (L_Carton) Time in system = 343.721004
 4449.43: Load 34 (L_Carton) Time in system = 369.431603
 4557.43: Load 35 (L_Carton) Time in system = 354.221281
+4658.00: Animation is off.
 4698.70: Load 36 (L_Carton) Time in system = 378.704045
 4810.67: Load 37 (L_Carton) Time in system = 365.951736
 4933.01: Load 38 (L_Carton) Time in system = 373.008381

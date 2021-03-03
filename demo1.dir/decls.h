@@ -3,7 +3,7 @@
 // Build: 2152.82
 // Model name:	demo1
 // Model path:	C:\Users\LST\Desktop\IN Lab\AM_saver-\demo1.dir\
-// Generated:	Tue Mar 02 17:42:09 2021
+// Generated:	Wed Mar 03 16:57:09 2021
 // Applied/AutoMod Licensee Confidential
 // NO DISTRIBUTION OR REPRODUCTION RIGHTS GRANTED!
 // Copyright (c) 1988-2010 Applied Materials All rights reserved.
@@ -33,6 +33,12 @@ struct model_Conv1_struct {
 	LocHead* am_sta2;
 	LocHead* am_staout2;
 	LocHead* am_staout1;
+	System* am_parentsys;
+};
+struct model_Agv_struct {
+	System* $sys;
+	VehSegSpec* am_DefSegment;
+	VehType* am_DefVehicle;
 	System* am_parentsys;
 };
 char* Acceleration_valstrfunc(void*);
@@ -128,6 +134,7 @@ struct model_struct {
 	rnstream* am_stream_L_Carton_1;
 	variable* am_V_Numdone$var;
 	int32 am_V_Numdone;
+	struct model_Agv_struct am_Agv;
 	process* am_P_CompleteAssembly;
 	resource* am_R_Operator1;
 	rnstream* am_stream0;

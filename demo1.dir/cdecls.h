@@ -3,7 +3,7 @@
 // Build: 2152.82
 // Model name:	demo1
 // Model path:	C:\Users\LST\Desktop\IN Lab\AM_saver-\demo1.dir\
-// Generated:	Tue Mar 02 17:42:09 2021
+// Generated:	Wed Mar 03 16:57:09 2021
 // Applied/AutoMod Licensee Confidential
 // NO DISTRIBUTION OR REPRODUCTION RIGHTS GRANTED!
 // Copyright (c) 1988-2010 Applied Materials All rights reserved.
@@ -35,6 +35,12 @@
 #define am2_staout1 am_model.am_Conv1.am_staout1
 #undef am2_parentsys
 #define am2_parentsys am_model.am_Conv1.am_parentsys
+#undef am2_DefSegment
+#define am2_DefSegment am_model.am_Agv.am_DefSegment
+#undef am2_DefVehicle
+#define am2_DefVehicle am_model.am_Agv.am_DefVehicle
+#undef am2_parentsys
+#define am2_parentsys am_model.am_Agv.am_parentsys
 #undef GetSocketNonBlocking
 #undef XLClear
 #undef OPCFlushWrite
@@ -136,6 +142,8 @@
 #undef DBOpenSourceUDL
 #undef OPCWriteRealWait
 #undef MMSyncSendMessageInteger
+#undef am2_Agv
+#define am2_Agv am_model.am_Agv.$sys
 #undef am2_P_CompleteAssembly
 #define am2_P_CompleteAssembly am_model.am_P_CompleteAssembly
 #undef XLClearColumnC1

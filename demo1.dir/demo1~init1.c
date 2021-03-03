@@ -3,7 +3,7 @@
 // Build: 2152.82
 // Model name:	demo1
 // Model path:	C:\Users\LST\Desktop\IN Lab\AM_saver-\demo1.dir\
-// Generated:	Tue Mar 02 17:42:09 2021
+// Generated:	Wed Mar 03 16:57:09 2021
 // Applied/AutoMod Licensee Confidential
 // NO DISTRIBUTION OR REPRODUCTION RIGHTS GRANTED!
 // Copyright (c) 1988-2010 Applied Materials All rights reserved.
@@ -35,6 +35,10 @@ initglobs0()
 	am_model.am_Conv1.am_staout2 = symGetSystemDataByName(am_model.am_Conv1.$sys, "staout2");
 	am_model.am_Conv1.am_staout1 = symGetSystemDataByName(am_model.am_Conv1.$sys, "staout1");
 	am_model.am_Conv1.am_parentsys = symGetSystemDataByName(am_model.am_Conv1.$sys, "parentsys");
+	am_model.am_Agv.$sys = symGetSystemDataByName(am_model.$sys, "Agv");
+	am_model.am_Agv.am_DefSegment = symGetSystemDataByName(am_model.am_Agv.$sys, "DefSegment");
+	am_model.am_Agv.am_DefVehicle = symGetSystemDataByName(am_model.am_Agv.$sys, "DefVehicle");
+	am_model.am_Agv.am_parentsys = symGetSystemDataByName(am_model.am_Agv.$sys, "parentsys");
 	am_model.am_die = symGetSystemDataByName(am_model.$sys, "die");
 	am_model.am_A_Time$att = symGetSystemDataByName(am_model.$sys, "A_Time");
 	am_model.am_P_EnterAssembly = symGetSystemDataByName(am_model.$sys, "P_EnterAssembly");
