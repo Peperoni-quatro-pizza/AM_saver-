@@ -3,7 +3,7 @@
 // Build: 2152.82
 // Model name:	demo1
 // Model path:	C:\Users\LST\Desktop\IN Lab\AM_saver-\demo1.dir\
-// Generated:	Wed Mar 03 16:57:09 2021
+// Generated:	Thu Mar 04 14:09:15 2021
 // Applied/AutoMod Licensee Confidential
 // NO DISTRIBUTION OR REPRODUCTION RIGHTS GRANTED!
 // Copyright (c) 1988-2010 Applied Materials All rights reserved.
@@ -37,9 +37,18 @@ struct model_Conv1_struct {
 };
 struct model_Agv_struct {
 	System* $sys;
+	LocHead* am_cpin1;
+	LocHead* am_cpin2;
+	LocHead* am_cprepairout;
+	LocHead* am_cplabelout;
 	VehSegSpec* am_DefSegment;
+	LocHead* am_cprepairin;
+	LocHead* am_cpstore;
+	LocHead* am_cplabelin;
+	LocHead* am_cppark;
 	VehType* am_DefVehicle;
 	System* am_parentsys;
+	LocHead* am_cpinspect;
 };
 char* Acceleration_valstrfunc(void*);
 Acceleration Acceleration_strvalfunc(char*);
@@ -122,25 +131,41 @@ char* Velocity_valstrfunc(void*);
 Velocity Velocity_strvalfunc(char*);
 struct model_struct {
 	System* $sys;
+	process* am_P_Reject;
+	queue* am_Q_Reject;
 	process* am_die;
 	attribute* am_A_Time$att;
+	process* am_P_Repair;
+	queue* am_Q_Repair;
+	resource* am_R_Repair;
+	queue* am_Q_Wait;
 	process* am_P_EnterAssembly;
 	variable* am_OPCTimestamp$var;
 	char* am_OPCTimestamp;
 	rnstream* am_stream_R_Operator2_1;
 	struct model_Conv1_struct am_Conv1;
 	queue* am_Q_Assemble;
+	rnstream* am_stream_R_Repair_1;
 	System* am_modelsys;
 	rnstream* am_stream_L_Carton_1;
 	variable* am_V_Numdone$var;
 	int32 am_V_Numdone;
 	struct model_Agv_struct am_Agv;
 	process* am_P_CompleteAssembly;
+	process* am_P_Inspect;
+	resource* am_R_Inspect;
+	process* am_P_Label;
+	queue* am_Q_Label;
+	resource* am_R_Label;
+	queue* am_Q_Store;
 	resource* am_R_Operator1;
+	process* am_P_Store;
 	rnstream* am_stream0;
 	resource* am_R_Operator2;
 	rnstream* am_stream_R_Operator1_1;
 	process* am_P_Out;
+	rnstream* am_stream_R_Inspect_1;
+	rnstream* am_stream_R_Label_1;
 	variable* am_OPCQuality$var;
 	int32 am_OPCQuality;
 };

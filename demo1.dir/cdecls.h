@@ -3,7 +3,7 @@
 // Build: 2152.82
 // Model name:	demo1
 // Model path:	C:\Users\LST\Desktop\IN Lab\AM_saver-\demo1.dir\
-// Generated:	Wed Mar 03 16:57:09 2021
+// Generated:	Thu Mar 04 14:09:15 2021
 // Applied/AutoMod Licensee Confidential
 // NO DISTRIBUTION OR REPRODUCTION RIGHTS GRANTED!
 // Copyright (c) 1988-2010 Applied Materials All rights reserved.
@@ -35,12 +35,30 @@
 #define am2_staout1 am_model.am_Conv1.am_staout1
 #undef am2_parentsys
 #define am2_parentsys am_model.am_Conv1.am_parentsys
+#undef am2_cpin1
+#define am2_cpin1 am_model.am_Agv.am_cpin1
+#undef am2_cpin2
+#define am2_cpin2 am_model.am_Agv.am_cpin2
+#undef am2_cprepairout
+#define am2_cprepairout am_model.am_Agv.am_cprepairout
+#undef am2_cplabelout
+#define am2_cplabelout am_model.am_Agv.am_cplabelout
 #undef am2_DefSegment
 #define am2_DefSegment am_model.am_Agv.am_DefSegment
+#undef am2_cprepairin
+#define am2_cprepairin am_model.am_Agv.am_cprepairin
+#undef am2_cpstore
+#define am2_cpstore am_model.am_Agv.am_cpstore
+#undef am2_cplabelin
+#define am2_cplabelin am_model.am_Agv.am_cplabelin
+#undef am2_cppark
+#define am2_cppark am_model.am_Agv.am_cppark
 #undef am2_DefVehicle
 #define am2_DefVehicle am_model.am_Agv.am_DefVehicle
 #undef am2_parentsys
 #define am2_parentsys am_model.am_Agv.am_parentsys
+#undef am2_cpinspect
+#define am2_cpinspect am_model.am_Agv.am_cpinspect
 #undef GetSocketNonBlocking
 #undef XLClear
 #undef OPCFlushWrite
@@ -51,8 +69,12 @@
 #undef Fsetpathtime
 #undef SendSocketString
 #undef GetSocketTimeOut
+#undef am2_P_Reject
+#define am2_P_Reject am_model.am_P_Reject
 #undef MMSyncSendMessageNumReals
 #undef OPCListConnections
+#undef am2_Q_Reject
+#define am2_Q_Reject am_model.am_Q_Reject
 #undef MMSyncSendMessageNumIntegers
 #undef XLClearAreaR1C1
 #undef MMSyncSendMessagePrint
@@ -69,16 +91,24 @@
 #define am2_A_Time am_model.am_A_Time
 #undef XLGetAreaA1
 #undef XLSetA1
+#undef am2_P_Repair
+#define am2_P_Repair am_model.am_P_Repair
 #undef SetSocketTimeOut
 #undef FtranResource
 #undef DBOpenSession
+#undef am2_Q_Repair
+#define am2_Q_Repair am_model.am_Q_Repair
 #undef MMSyncReadMessagePrint
 #undef FscaleQueue
 #undef MMSyncReadMessageNumIntegers
+#undef am2_R_Repair
+#define am2_R_Repair am_model.am_R_Repair
 #undef MMSyncReadMessageNumReals
 #undef MMSyncSendMessageString
 #undef MilliSleep
 #undef SetAcceptTimeOut
+#undef am2_Q_Wait
+#define am2_Q_Wait am_model.am_Q_Wait
 #undef ValidSocket
 #undef MMSyncSendMessageClear
 #undef FattachRes
@@ -108,6 +138,8 @@
 #undef GetSocketNum
 #undef ConnectSocketService
 #undef FcolorElement
+#undef am2_stream_R_Repair_1
+#define am2_stream_R_Repair_1 am_model.am_stream_R_Repair_1
 #undef OPCWriteString
 #undef XLGetA1
 #undef CurPath
@@ -146,6 +178,10 @@
 #define am2_Agv am_model.am_Agv.$sys
 #undef am2_P_CompleteAssembly
 #define am2_P_CompleteAssembly am_model.am_P_CompleteAssembly
+#undef am2_P_Inspect
+#define am2_P_Inspect am_model.am_P_Inspect
+#undef am2_R_Inspect
+#define am2_R_Inspect am_model.am_R_Inspect
 #undef XLClearColumnC1
 #undef DistLoc2Loc
 #undef XLClearAreaA1
@@ -153,19 +189,29 @@
 #undef DBOpenSource
 #undef MMSyncReadMessageReal
 #undef FattachLabel
+#undef am2_P_Label
+#define am2_P_Label am_model.am_P_Label
 #undef XLSetR1C1
 #undef XLClearA1
 #undef DBGetRowData
 #undef XLGet
 #undef OPCListItems
 #undef DBGetColumnCount
+#undef am2_Q_Label
+#define am2_Q_Label am_model.am_Q_Label
+#undef am2_R_Label
+#define am2_R_Label am_model.am_R_Label
 #undef MMSyncReadMessageInteger
 #undef XLClearRow
 #undef ClosestVehDests
+#undef am2_Q_Store
+#define am2_Q_Store am_model.am_Q_Store
 #undef AcceptSocketPort
 #undef FgetNavDist
 #undef am2_R_Operator1
 #define am2_R_Operator1 am_model.am_R_Operator1
+#undef am2_P_Store
+#define am2_P_Store am_model.am_P_Store
 #undef MMSyncReadMessageType
 #undef XLClearWorkbook
 #undef am2_stream0
@@ -208,8 +254,12 @@
 #undef XLSetArea
 #undef ClosestVehicles
 #undef DBCloseSource
+#undef am2_stream_R_Inspect_1
+#define am2_stream_R_Inspect_1 am_model.am_stream_R_Inspect_1
 #undef Fsaa_on
 #undef MMSyncSendMessageNumStrings
+#undef am2_stream_R_Label_1
+#define am2_stream_R_Label_1 am_model.am_stream_R_Label_1
 #undef Fdelpic
 #undef DistVeh2Loc
 #undef Fgetsysdate

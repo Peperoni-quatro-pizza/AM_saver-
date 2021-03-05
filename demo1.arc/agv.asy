@@ -64,9 +64,16 @@ NAMELST name Start
 NAMELST name Start item cppark 
 WORKLST name cppark Sequential item cpin1 
  Sequential item cpin2 
-WORKLST name cpstore Sequential item cpin1 
+ Sequential item cplabelout 
+ Sequential item cprepairout 
+WORKLST name cpstore Sequential item cprepairout 
+ Sequential item cpin1 
  Sequential item cpin2 
+ Sequential item cplabelout 
 PARKLST name cpstore Sequential item cppark 
+PARKLST name cpinspect Sequential item cppark 
+PARKLST name cprepairin Sequential item cppark 
+PARKLST name cplabelin Sequential item cppark 
 AGVVEHSEG name DefSegment cap 1 pickup 15 Seconds setdown 15 Seconds
 	figcurspeed 100
 	figmaxspeed 100

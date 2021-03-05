@@ -3,7 +3,7 @@
 // Build: 2152.82
 // Model name:	demo1
 // Model path:	C:\Users\LST\Desktop\IN Lab\AM_saver-\demo1.dir\
-// Generated:	Wed Mar 03 16:57:09 2021
+// Generated:	Thu Mar 04 14:09:15 2021
 // Applied/AutoMod Licensee Confidential
 // NO DISTRIBUTION OR REPRODUCTION RIGHTS GRANTED!
 // Copyright (c) 1988-2010 Applied Materials All rights reserved.
@@ -36,26 +36,51 @@ initglobs0()
 	am_model.am_Conv1.am_staout1 = symGetSystemDataByName(am_model.am_Conv1.$sys, "staout1");
 	am_model.am_Conv1.am_parentsys = symGetSystemDataByName(am_model.am_Conv1.$sys, "parentsys");
 	am_model.am_Agv.$sys = symGetSystemDataByName(am_model.$sys, "Agv");
+	am_model.am_Agv.am_cpin1 = symGetSystemDataByName(am_model.am_Agv.$sys, "cpin1");
+	am_model.am_Agv.am_cpin2 = symGetSystemDataByName(am_model.am_Agv.$sys, "cpin2");
+	am_model.am_Agv.am_cprepairout = symGetSystemDataByName(am_model.am_Agv.$sys, "cprepairout");
+	am_model.am_Agv.am_cplabelout = symGetSystemDataByName(am_model.am_Agv.$sys, "cplabelout");
 	am_model.am_Agv.am_DefSegment = symGetSystemDataByName(am_model.am_Agv.$sys, "DefSegment");
+	am_model.am_Agv.am_cprepairin = symGetSystemDataByName(am_model.am_Agv.$sys, "cprepairin");
+	am_model.am_Agv.am_cpstore = symGetSystemDataByName(am_model.am_Agv.$sys, "cpstore");
+	am_model.am_Agv.am_cplabelin = symGetSystemDataByName(am_model.am_Agv.$sys, "cplabelin");
+	am_model.am_Agv.am_cppark = symGetSystemDataByName(am_model.am_Agv.$sys, "cppark");
 	am_model.am_Agv.am_DefVehicle = symGetSystemDataByName(am_model.am_Agv.$sys, "DefVehicle");
 	am_model.am_Agv.am_parentsys = symGetSystemDataByName(am_model.am_Agv.$sys, "parentsys");
+	am_model.am_Agv.am_cpinspect = symGetSystemDataByName(am_model.am_Agv.$sys, "cpinspect");
+	am_model.am_P_Reject = symGetSystemDataByName(am_model.$sys, "P_Reject");
+	am_model.am_Q_Reject = symGetSystemDataByName(am_model.$sys, "Q_Reject");
 	am_model.am_die = symGetSystemDataByName(am_model.$sys, "die");
 	am_model.am_A_Time$att = symGetSystemDataByName(am_model.$sys, "A_Time");
+	am_model.am_P_Repair = symGetSystemDataByName(am_model.$sys, "P_Repair");
+	am_model.am_Q_Repair = symGetSystemDataByName(am_model.$sys, "Q_Repair");
+	am_model.am_R_Repair = symGetSystemDataByName(am_model.$sys, "R_Repair");
+	am_model.am_Q_Wait = symGetSystemDataByName(am_model.$sys, "Q_Wait");
 	am_model.am_P_EnterAssembly = symGetSystemDataByName(am_model.$sys, "P_EnterAssembly");
 	am_model.am_OPCTimestamp$var = symGetSystemDataByName(am_model.$sys, "OPCTimestamp");
 	am_model.am_OPCTimestamp$var->data = (void*)&am_model.am_OPCTimestamp;
 	am_model.am_stream_R_Operator2_1 = symGetSystemDataByName(am_model.$sys, "stream_R_Operator2_1");
 	am_model.am_Q_Assemble = symGetSystemDataByName(am_model.$sys, "Q_Assemble");
+	am_model.am_stream_R_Repair_1 = symGetSystemDataByName(am_model.$sys, "stream_R_Repair_1");
 	am_model.am_modelsys = symGetSystemDataByName(am_model.$sys, "modelsys");
 	am_model.am_stream_L_Carton_1 = symGetSystemDataByName(am_model.$sys, "stream_L_Carton_1");
 	am_model.am_V_Numdone$var = symGetSystemDataByName(am_model.$sys, "V_Numdone");
 	am_model.am_V_Numdone$var->data = (void*)&am_model.am_V_Numdone;
 	am_model.am_P_CompleteAssembly = symGetSystemDataByName(am_model.$sys, "P_CompleteAssembly");
+	am_model.am_P_Inspect = symGetSystemDataByName(am_model.$sys, "P_Inspect");
+	am_model.am_R_Inspect = symGetSystemDataByName(am_model.$sys, "R_Inspect");
+	am_model.am_P_Label = symGetSystemDataByName(am_model.$sys, "P_Label");
+	am_model.am_Q_Label = symGetSystemDataByName(am_model.$sys, "Q_Label");
+	am_model.am_R_Label = symGetSystemDataByName(am_model.$sys, "R_Label");
+	am_model.am_Q_Store = symGetSystemDataByName(am_model.$sys, "Q_Store");
 	am_model.am_R_Operator1 = symGetSystemDataByName(am_model.$sys, "R_Operator1");
+	am_model.am_P_Store = symGetSystemDataByName(am_model.$sys, "P_Store");
 	am_model.am_stream0 = symGetSystemDataByName(am_model.$sys, "stream0");
 	am_model.am_R_Operator2 = symGetSystemDataByName(am_model.$sys, "R_Operator2");
 	am_model.am_stream_R_Operator1_1 = symGetSystemDataByName(am_model.$sys, "stream_R_Operator1_1");
 	am_model.am_P_Out = symGetSystemDataByName(am_model.$sys, "P_Out");
+	am_model.am_stream_R_Inspect_1 = symGetSystemDataByName(am_model.$sys, "stream_R_Inspect_1");
+	am_model.am_stream_R_Label_1 = symGetSystemDataByName(am_model.$sys, "stream_R_Label_1");
 	am_model.am_OPCQuality$var = symGetSystemDataByName(am_model.$sys, "OPCQuality");
 	am_model.am_OPCQuality$var->data = (void*)&am_model.am_OPCQuality;
 	model_mycode_init(&am_model);
