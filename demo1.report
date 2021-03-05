@@ -1,7 +1,7 @@
 *** AutoMod 12.3 ***
 Model demo1
 Statistics at Absolute Clock = 1:00:00.00, Relative Clock = 1:00:00.00
-CPU time: Absolute: 38.723 sec, Relative: 38.723 sec
+CPU time: Absolute: 26.034 sec, Relative: 26.034 sec
 
 Statistics for Process System "demo1"
 
@@ -58,7 +58,7 @@ Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Ti
 B_Merge(1)                48     1     0.10        1     1     0  0.100       7.50       0.01
 B_Merge(2)                54     1     0.09        1     1     0  0.094       6.23       0.21
 B_Merge(3)                52     0     0.11        1     1     0  0.111       7.68       0.51
-B_Merge(4)                52     0     0.11        1     1     0  0.110       7.62       0.06
+B_Merge(4)                52     0     0.11        1     1     0  0.111       7.68       0.06
 
 Random Number Streams
 Name                 Total 
@@ -184,7 +184,7 @@ Type         In Cur Status   In Cur Status  In Cur Status
 *** AutoMod 12.3 ***
 Model demo1
 Statistics at Absolute Clock = 2:00:00.00, Relative Clock = 2:00:00.00
-CPU time: Absolute: 67.242 sec, Relative: 67.242 sec
+CPU time: Absolute: 33.203 sec, Relative: 33.203 sec
 
 Statistics for Process System "demo1"
 
@@ -241,7 +241,7 @@ Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Ti
 B_Merge(1)               100     0     0.11        1     1     0  0.107       7.72       0.00
 B_Merge(2)               119     0     0.11        1     1     0  0.107       6.48       0.29
 B_Merge(3)               118     0     0.13        1     1     0  0.126       7.69       0.40
-B_Merge(4)               118     0     0.12        1     1     0  0.124       7.57       0.14
+B_Merge(4)               118     0     0.13        1     1     0  0.125       7.65       0.14
 
 Random Number Streams
 Name                 Total 
@@ -284,7 +284,7 @@ Guide Path Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
 path1                    157     1     0.58 Infinite     3     0     --      26.55         --
-path2                     87     0     0.46 Infinite     3     0     --      38.32         --
+path2                     87     0     0.46 Infinite     3     0     --      38.31         --
 path3                    118     2     0.64 Infinite     3     0     --      39.32         --
 path4                     19     0     0.10 Infinite     1     0     --      36.21         --
 path5                     87     0     0.05 Infinite     1     0     --       4.25         --
@@ -294,7 +294,7 @@ path8                     19     0     0.01 Infinite     1     0     --       4.
 path9                     55     0     0.33 Infinite     2     0     --      42.79         --
 path10                     0     0     0.00 Infinite     0     0     --       0.00         --
 path11                     0     0     0.00 Infinite     0     0     --       0.00         --
-path12                    31     0     0.08 Infinite     2     0     --      18.42         --
+path12                    31     0     0.08 Infinite     2     0     --      18.43         --
 path13                    97     0     0.08 Infinite     2     0     --       5.93         --
 path14                    55     0     0.03 Infinite     1     0     --       4.07         --
 path15                    55     0     0.04 Infinite     1     0     --       4.63         --
@@ -367,7 +367,7 @@ Type         In Cur Status   In Cur Status  In Cur Status
 *** AutoMod 12.3 ***
 Model demo1
 Statistics at Absolute Clock = 3:00:00.00, Relative Clock = 3:00:00.00
-CPU time: Absolute: 99.335 sec, Relative: 99.335 sec
+CPU time: Absolute: 45.919 sec, Relative: 45.919 sec
 
 Statistics for Process System "demo1"
 
@@ -424,7 +424,7 @@ Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Ti
 B_Merge(1)               156     0     0.11        1     1     0  0.111       7.69       0.00
 B_Merge(2)               185     0     0.11        1     1     0  0.110       6.44       0.25
 B_Merge(3)               184     0     0.13        1     1     0  0.131       7.67       0.46
-B_Merge(4)               184     0     0.13        1     1     0  0.129       7.58       0.14
+B_Merge(4)               184     0     0.13        1     1     0  0.130       7.66       0.14
 
 Random Number Streams
 Name                 Total 
@@ -468,7 +468,7 @@ Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Ti
 ========================================================================================
 path1                    246     1     0.60 Infinite     3     0     --      26.50         --
 path2                    141     0     0.50 Infinite     3     0     --      38.03         --
-path3                    184     1     0.68 Infinite     3     0     --      39.80         --
+path3                    184     1     0.68 Infinite     3     0     --      39.79         --
 path4                     29     0     0.10 Infinite     1     0     --      36.21         --
 path5                    141     0     0.05 Infinite     1     0     --       4.20         --
 path6                    141     0     0.06 Infinite     1     0     --       4.24         --
@@ -477,14 +477,14 @@ path8                     29     0     0.01 Infinite     1     0     --       4.
 path9                     85     0     0.34 Infinite     2     0     --      42.75         --
 path10                     0     0     0.00 Infinite     0     0     --       0.00         --
 path11                     0     0     0.00 Infinite     0     0     --       0.00         --
-path12                    43     0     0.07 Infinite     2     0     --      18.36         --
+path12                    43     0     0.07 Infinite     2     0     --      18.37         --
 path13                   154     1     0.09 Infinite     2     0     --       6.60         --
 path14                    85     0     0.03 Infinite     1     0     --       4.07         --
 path15                    85     0     0.04 Infinite     1     0     --       4.67         --
 path16                    85     0     0.04 Infinite     1     0     --       4.50         --
 path17                    85     0     0.03 Infinite     1     0     --       4.07         --
 path18                    43     0     0.02 Infinite     1     0     --       4.12         --
-path19                    43     0     0.02 Infinite     1     0     --       4.10         --
+path19                    43     0     0.02 Infinite     1     0     --       4.11         --
 path20                   154     0     0.06 Infinite     1     0     --       4.05         --
 path21                   156     0     0.06 Infinite     1     0     --       4.15         --
 path22                   111     0     0.38 Infinite     3     0     --      36.59         --
@@ -550,7 +550,7 @@ Type         In Cur Status   In Cur Status  In Cur Status
 *** AutoMod 12.3 ***
 Model demo1
 Statistics at Absolute Clock = 4:00:00.00, Relative Clock = 4:00:00.00
-CPU time: Absolute: 134.259 sec, Relative: 134.259 sec
+CPU time: Absolute: 57.972 sec, Relative: 57.972 sec
 
 Statistics for Process System "demo1"
 
@@ -607,7 +607,7 @@ Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Ti
 B_Merge(1)               210     0     0.11        1     1     0  0.111       7.64       0.00
 B_Merge(2)               251     0     0.11        1     1     0  0.112       6.45       0.22
 B_Merge(3)               251     0     0.13        1     1     0  0.134       7.67       0.39
-B_Merge(4)               251     1     0.13        1     1     0  0.132       7.57       0.12
+B_Merge(4)               251     1     0.13        1     1     0  0.133       7.64       0.12
 
 Random Number Streams
 Name                 Total 
@@ -650,7 +650,7 @@ Guide Path Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
 path1                    334     0     0.62 Infinite     3     0     --      26.57         --
-path2                    194     0     0.51 Infinite     3     0     --      37.90         --
+path2                    194     0     0.51 Infinite     3     0     --      37.89         --
 path3                    251     3     0.69 Infinite     3     0     --      39.65         --
 path4                     41     0     0.10 Infinite     2     0     --      36.21         --
 path5                    194     0     0.06 Infinite     1     0     --       4.18         --
@@ -660,7 +660,7 @@ path8                     41     0     0.01 Infinite     1     0     --       4.
 path9                    115     0     0.34 Infinite     2     0     --      42.57         --
 path10                     0     0     0.00 Infinite     0     0     --       0.00         --
 path11                     0     0     0.00 Infinite     0     0     --       0.00         --
-path12                    57     0     0.07 Infinite     2     0     --      18.32         --
+path12                    57     0     0.07 Infinite     2     0     --      18.33         --
 path13                   207     0     0.10 Infinite     2     0     --       6.79         --
 path14                   115     0     0.03 Infinite     1     0     --       4.08         --
 path15                   115     0     0.04 Infinite     1     0     --       5.42         --
@@ -733,7 +733,7 @@ Type         In Cur Status   In Cur Status  In Cur Status
 *** AutoMod 12.3 ***
 Model demo1
 Statistics at Absolute Clock = 5:00:00.00, Relative Clock = 5:00:00.00
-CPU time: Absolute: 169.832 sec, Relative: 169.832 sec
+CPU time: Absolute: 74.037 sec, Relative: 74.037 sec
 
 Statistics for Process System "demo1"
 
@@ -790,7 +790,7 @@ Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Ti
 B_Merge(1)               267     0     0.11        1     1     0  0.113       7.62       0.00
 B_Merge(2)               318     1     0.11        1     1     0  0.114       6.43       0.19
 B_Merge(3)               316     0     0.13        1     1     0  0.135       7.67       0.40
-B_Merge(4)               315     0     0.13        1     1     0  0.133       7.60       0.11
+B_Merge(4)               315     0     0.13        1     1     0  0.134       7.66       0.11
 
 Random Number Streams
 Name                 Total 
@@ -843,7 +843,7 @@ path8                     51     0     0.01 Infinite     1     0     --       4.
 path9                    146     1     0.34 Infinite     2     0     --      42.23         --
 path10                     0     0     0.00 Infinite     0     0     --       0.00         --
 path11                     0     0     0.00 Infinite     0     0     --       0.00         --
-path12                    68     0     0.07 Infinite     2     0     --      18.30         --
+path12                    68     0     0.07 Infinite     2     0     --      18.31         --
 path13                   264     0     0.10 Infinite     2     0     --       7.01         --
 path14                   146     0     0.03 Infinite     1     0     --       4.08         --
 path15                   146     0     0.04 Infinite     1     0     --       5.45         --
@@ -916,7 +916,7 @@ Type         In Cur Status   In Cur Status  In Cur Status
 *** AutoMod 12.3 ***
 Model demo1
 Statistics at Absolute Clock = 6:00:00.00, Relative Clock = 6:00:00.00
-CPU time: Absolute: 204.197 sec, Relative: 204.197 sec
+CPU time: Absolute: 74.647 sec, Relative: 74.647 sec
 
 Statistics for Process System "demo1"
 
@@ -973,7 +973,7 @@ Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Ti
 B_Merge(1)               327     1     0.12        1     1     0  0.115       7.60       0.00
 B_Merge(2)               383     1     0.11        1     1     0  0.113       6.39       0.17
 B_Merge(3)               382     0     0.14        1     1     0  0.136       7.68       0.36
-B_Merge(4)               382     0     0.13        1     1     0  0.135       7.61       0.09
+B_Merge(4)               382     0     0.14        1     1     0  0.136       7.67       0.09
 
 Random Number Streams
 Name                 Total 
@@ -1016,7 +1016,7 @@ Guide Path Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
 path1                    514     0     0.63 Infinite     3     0     --      26.31         --
-path2                    307     0     0.54 Infinite     3     0     --      37.92         --
+path2                    307     0     0.54 Infinite     3     0     --      37.91         --
 path3                    382     2     0.72 Infinite     3     0     --      40.45         --
 path4                     56     0     0.09 Infinite     2     0     --      36.21         --
 path5                    307     0     0.06 Infinite     1     0     --       4.20         --
@@ -1026,7 +1026,7 @@ path8                     56     0     0.01 Infinite     1     0     --       4.
 path9                    175     0     0.34 Infinite     2     0     --      42.42         --
 path10                     0     0     0.00 Infinite     0     0     --       0.00         --
 path11                     0     0     0.00 Infinite     0     0     --       0.00         --
-path12                    75     0     0.06 Infinite     2     0     --      18.29         --
+path12                    75     0     0.06 Infinite     2     0     --      18.30         --
 path13                   324     1     0.11 Infinite     2     0     --       7.44         --
 path14                   175     0     0.03 Infinite     1     0     --       4.08         --
 path15                   175     0     0.04 Infinite     1     0     --       5.34         --
@@ -1048,12 +1048,12 @@ Control Point Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
 cpin1                    383     1     0.53 Infinite     3     0     --      29.63         --
-cpin2                    382     0     0.21 Infinite     2     0     --      12.04         --
+cpin2                    382     0     0.21 Infinite     2     0     --      12.03         --
 cpinspect                175     0     0.37 Infinite     2     0     --      46.05         --
 cplabelin                307     0     0.50 Infinite     3     0     --      35.09         --
 cplabelout               307     0     0.23 Infinite     2     0     --      16.13         --
 cpstore                  382     2     0.68 Infinite     3     0     --      38.48         --
-cppark                   214     0     0.38 Infinite     2     0     --      37.97         --
+cppark                   214     0     0.38 Infinite     2     0     --      37.98         --
 cprepairin                56     0     0.10 Infinite     3     0     --      37.24         --
 cprepairout               56     0     0.04 Infinite     2     0     --      14.46         --
 
@@ -1066,9 +1066,9 @@ Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
 DefVehicle:
    0.384    175   47.44    0.345    117   63.77    0.241     75   69.38    0.029
    0.378    171   47.81    0.340    116   63.35    0.243     73   71.78    0.017
-   0.373    164   49.09    0.371    118   67.83    0.216     64   72.99    0.012
+   0.373    164   49.09    0.370    118   67.80    0.216     64   73.03    0.012
 All DefVehicle:
-   0.379    510   48.11    0.352    351   64.98    0.233    212   71.38    0.020
+   0.379    510   48.11    0.352    351   64.97    0.233    212   71.40    0.020
 
 The Average Capacity Lost Due To Congestion is 3.7 Percent
 Of Total Capacity Which is 0.1 Vehicles
@@ -1086,82 +1086,82 @@ Current Status Of Vehicles
 Vehicle              Status             Cur Status Location             Location             Claimed By Veh
 ==========================================================================================================
 DefVehicle(1)        Move                  50.05 cplabelout           cppark               Empty          
-DefVehicle(2)        Retrieve              33.96 cpstore              cpin1                Empty          
-DefVehicle(3)        Deliver Setdown       13.96 cpstore              cpstore              Load 162 (L_Carton)
+DefVehicle(2)        Retrieve              33.97 cpstore              cpin1                Empty          
+DefVehicle(3)        Deliver Setdown       13.97 cpstore              cpstore              Load 162 (L_Carton)
 
 Current Status Summary
               Average Time   Maximum Time   Minimum Time
 Type         In Cur Status   In Cur Status  In Cur Status
 ========================================================
-   DefVehicle        32.66          50.05          13.96
+   DefVehicle        32.66          50.05          13.97
 
 
 *** AutoMod 12.3 ***
 Model demo1
 Statistics at Absolute Clock = 7:00:00.00, Relative Clock = 7:00:00.00
-CPU time: Absolute: 238.618 sec, Relative: 238.618 sec
+CPU time: Absolute: 75.172 sec, Relative: 75.172 sec
 
 Statistics for Process System "demo1"
 
 Process Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
-P_EnterAssembly          210     1     0.91       --     2     0     --     109.40         --
-P_CompleteAssembly       209     2     1.13       --     2     0     --     136.71         --
-P_Out(1)                  90     0     0.78       --     3     0     --     219.03         --
-P_Out(2)                 117     1     0.93       --     3     0     --     201.14         --
-P_Store                  175     0     0.44       --     2     0     --      63.52         --
-P_Label                  190    15    10.28       --    19     0     --    1363.83         --
-P_Repair                  31     0     0.83       --     4     0     --     676.96         --
-P_Reject                  16     0     0.03       --     1     0     --      45.00         --
-P_Inspect                206     0     0.39       --     2     0     --      47.35         --
+P_EnterAssembly          210     1     0.91       --     2     0     --     109.57         --
+P_CompleteAssembly       209     2     1.13       --     2     0     --     136.69         --
+P_Out(1)                  90     0     0.78       --     3     0     --     219.68         --
+P_Out(2)                 117     2     0.93       --     3     0     --     201.04         --
+P_Store                  175     1     0.44       --     2     0     --      63.24         --
+P_Label                  190    15    10.34       --    19     0     --    1370.97         --
+P_Repair                  32     0     0.85       --     4     0     --     669.29         --
+P_Reject                  15     0     0.03       --     1     0     --      45.00         --
+P_Inspect                205     0     0.38       --     2     0     --      47.15         --
 
 Process Traffic Limit Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
-P_EnterAssembly          210     1     0.91 Infinite     2     0     --     109.40         --
-P_CompleteAssembly       209     2     1.13 Infinite     2     0     --     136.71         --
-P_Out(1)                  90     0     0.78 Infinite     3     0     --     219.03         --
-P_Out(2)                 117     1     0.93 Infinite     3     0     --     201.14         --
-P_Store                  175     0     0.44 Infinite     2     0     --      63.52         --
-P_Label                  190    15    10.28 Infinite    19     0     --    1363.83         --
-P_Repair                  31     0     0.83 Infinite     4     0     --     676.96         --
-P_Reject                  16     0     0.03 Infinite     1     0     --      45.00         --
-P_Inspect                206     0     0.39 Infinite     2     0     --      47.35         --
+P_EnterAssembly          210     1     0.91 Infinite     2     0     --     109.57         --
+P_CompleteAssembly       209     2     1.13 Infinite     2     0     --     136.69         --
+P_Out(1)                  90     0     0.78 Infinite     3     0     --     219.68         --
+P_Out(2)                 117     2     0.93 Infinite     3     0     --     201.04         --
+P_Store                  175     1     0.44 Infinite     2     0     --      63.24         --
+P_Label                  190    15    10.34 Infinite    19     0     --    1370.97         --
+P_Repair                  32     0     0.85 Infinite     4     0     --     669.29         --
+P_Reject                  15     0     0.03 Infinite     1     0     --      45.00         --
+P_Inspect                205     0     0.38 Infinite     2     0     --      47.15         --
 
 Queue Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
-Space                    210     0     0.00 Infinite     1     0     --       0.41         --
-Q_Assemble               210     1     0.91        1     1     0  0.908     108.98       0.41
-Q_Wait(1)                 90     0     0.34 Infinite     2     0     --      95.70         --
-Q_Wait(2)                117     1     0.44 Infinite     2     0     --      93.72         --
-Q_Store                  175     0     0.24        1     1     0  0.243      35.00       1.26
-Q_Repair                  31     0     0.74 Infinite     4     0     --     600.28         --
-Q_Label                  189    14    10.07 Infinite    19     0     --    1342.33         --
-Q_Reject                  16     0     0.03 Infinite     1     0     --      45.00         --
+Space                    210     0     0.00 Infinite     1     0     --       0.48         --
+Q_Assemble               210     1     0.91        1     1     0  0.909     109.09       0.48
+Q_Wait(1)                 90     0     0.34 Infinite     2     0     --      96.35         --
+Q_Wait(2)                117     2     0.43 Infinite     2     0     --      93.62         --
+Q_Store                  175     1     0.24        1     1     0  0.242      34.80       1.18
+Q_Repair                  32     0     0.75 Infinite     4     0     --     592.70         --
+Q_Label                  190    15    10.12 Infinite    19     0     --    1342.11         --
+Q_Reject                  15     0     0.03 Infinite     1     0     --      45.00         --
 
 Resource Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
 ====================================================================================================
-R_Operator1              210     1     0.91        1     1     0  0.908     108.98       0.00     Up   ----      
-R_Operator2              208     1     0.49        1     1     0  0.489      59.26       0.00     Up   ----      
-R_Inspect                206     0     0.25        1     1     0  0.245      30.00       0.00     Up   ----      
-R_Label                  188     1     0.89        1     1     0  0.891     119.48     181.69     Up   ----      
-R_Repair                  31     0     0.43        1     1     0  0.431     350.21     100.86     Up   ----      
+R_Operator1              210     1     0.91        1     1     0  0.909     109.09       0.00     Up   ----      
+R_Operator2              208     1     0.49        1     1     0  0.489      59.24       0.00     Up   ----      
+R_Inspect                205     0     0.24        1     1     0  0.244      30.00       0.00     Up   ----      
+R_Label                  188     1     0.89        1     1     0  0.891     119.48     184.30     Up   ----      
+R_Repair                  32     0     0.44        1     1     0  0.441     347.58      97.71     Up   ----      
 
 Block Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
-B_Merge(1)               387     0     0.12        1     1     0  0.117       7.61       0.00
-B_Merge(2)               449     0     0.11        1     1     0  0.114       6.39       0.15
-B_Merge(3)               447     0     0.14        1     1     0  0.136       7.68       0.37
-B_Merge(4)               446     0     0.13        1     1     0  0.135       7.62       0.09
+B_Merge(1)               385     0     0.12        1     1     0  0.116       7.61       0.00
+B_Merge(2)               449     0     0.11        1     1     0  0.114       6.39       0.16
+B_Merge(3)               448     0     0.14        1     1     0  0.137       7.68       0.37
+B_Merge(4)               448     0     0.14        1     1     0  0.136       7.68       0.10
 
 Random Number Streams
 Name                 Total 
 ============================
-stream0              869
+stream0              868
 stream_L_Carton_1    0
 stream_R_Operator1_1 0
 stream_R_Operator2_1 0
@@ -1174,7 +1174,7 @@ Statistics for Conveyor System "demo1.Conv1"
 Section Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
-sec1                     209     2     1.16 Infinite     2     0     --     140.14         --
+sec1                     209     2     1.16 Infinite     2     0     --     140.12         --
 sec2                     207     0     0.25 Infinite     1     0     --      30.66         --
 sec3                     207     0     0.51 Infinite     1     0     --      61.71         --
 sec4                      90     0     0.10 Infinite     1     0     --      27.36         --
@@ -1184,7 +1184,7 @@ Station Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
 sta1                     209     0     0.00 Infinite     1     0     --       0.00         --
-sta2                     209     2     1.13 Infinite     2     0     --     136.71         --
+sta2                     209     2     1.13 Infinite     2     0     --     136.69         --
 staout1                   90     0     0.44 Infinite     2     0     --     123.33         --
 staout2                  117     0     0.50 Infinite     2     0     --     107.42         --
 
@@ -1198,47 +1198,47 @@ Statistics for Path Mover System "demo1.Agv"
 Guide Path Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
-path1                    608     3     0.63 Infinite     3     0     --      26.09         --
-path2                    364     0     0.55 Infinite     3     0     --      37.85         --
-path3                    446     0     0.72 Infinite     3     0     --      40.79         --
-path4                     62     0     0.09 Infinite     2     0     --      36.21         --
-path5                    365     1     0.06 Infinite     1     0     --       4.20         --
-path6                    364     0     0.06 Infinite     1     0     --       4.19         --
-path7                     62     0     0.01 Infinite     1     0     --       4.12         --
-path8                     62     0     0.01 Infinite     1     0     --       4.55         --
-path9                    206     0     0.35 Infinite     2     0     --      42.30         --
+path1                    607     1     0.63 Infinite     3     0     --      26.17         --
+path2                    365     0     0.55 Infinite     3     0     --      37.86         --
+path3                    448     1     0.72 Infinite     3     0     --      40.52         --
+path4                     64     0     0.09 Infinite     2     0     --      36.21         --
+path5                    365     0     0.06 Infinite     1     0     --       4.21         --
+path6                    365     0     0.06 Infinite     1     0     --       4.19         --
+path7                     64     0     0.01 Infinite     1     0     --       4.12         --
+path8                     64     0     0.01 Infinite     1     0     --       4.61         --
+path9                    205     0     0.34 Infinite     2     0     --      42.23         --
 path10                     0     0     0.00 Infinite     0     0     --       0.00         --
 path11                     0     0     0.00 Infinite     0     0     --       0.00         --
-path12                    82     0     0.06 Infinite     2     0     --      18.29         --
-path13                   384     0     0.12 Infinite     2     0     --       7.67         --
-path14                   206     0     0.03 Infinite     1     0     --       4.08         --
-path15                   206     0     0.04 Infinite     1     0     --       5.48         --
-path16                   206     0     0.04 Infinite     1     0     --       4.40         --
-path17                   206     0     0.03 Infinite     1     0     --       4.08         --
-path18                    82     0     0.01 Infinite     1     0     --       4.12         --
-path19                    82     0     0.01 Infinite     1     0     --       4.11         --
-path20                   384     0     0.06 Infinite     1     0     --       4.04         --
-path21                   387     0     0.06 Infinite     1     0     --       4.13         --
-path22                   248     0     0.24 Infinite     3     0     --      24.38         --
+path12                    83     0     0.06 Infinite     2     0     --      18.33         --
+path13                   383     0     0.12 Infinite     2     0     --       7.60         --
+path14                   205     0     0.03 Infinite     1     0     --       4.08         --
+path15                   205     0     0.04 Infinite     1     0     --       5.27         --
+path16                   205     0     0.04 Infinite     1     0     --       4.41         --
+path17                   205     0     0.03 Infinite     1     0     --       4.08         --
+path18                    83     0     0.01 Infinite     1     0     --       4.12         --
+path19                    83     0     0.01 Infinite     1     0     --       4.10         --
+path20                   383     0     0.06 Infinite     1     0     --       4.04         --
+path21                   385     0     0.06 Infinite     1     0     --       4.13         --
+path22                   249     1     0.24 Infinite     3     0     --      24.30         --
 path23                     0     0     0.00 Infinite     0     0     --       0.00         --
 path24                     0     0     0.00 Infinite     0     0     --       0.00         --
 path25                   248     0     0.04 Infinite     1     0     --       4.12         --
-path26                   245     0     0.04 Infinite     1     0     --       4.12         --
-path27                   245     0     0.04 Infinite     1     0     --       4.12         --
+path26                   246     0     0.04 Infinite     1     0     --       4.12         --
+path27                   246     0     0.04 Infinite     1     0     --       4.12         --
 path28                   248     0     0.04 Infinite     1     0     --       4.19         --
 
 Control Point Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
-cpin1                    449     1     0.53 Infinite     3     0     --      29.99         --
+cpin1                    449     1     0.53 Infinite     3     0     --      29.88         --
 cpin2                    448     0     0.21 Infinite     2     0     --      12.02         --
-cpinspect                206     0     0.38 Infinite     2     0     --      46.07         --
-cplabelin                366     2     0.51 Infinite     3     0     --      34.87         --
-cplabelout               364     0     0.23 Infinite     2     0     --      16.17         --
-cpstore                  446     0     0.68 Infinite     3     0     --      38.41         --
-cppark                   248     0     0.37 Infinite     2     0     --      37.16         --
-cprepairin                62     0     0.09 Infinite     3     0     --      37.23         --
-cprepairout               62     0     0.04 Infinite     2     0     --      14.46         --
+cpinspect                205     0     0.37 Infinite     2     0     --      45.80         --
+cplabelin                365     0     0.51 Infinite     3     0     --      35.05         --
+cplabelout               365     0     0.23 Infinite     2     0     --      16.13         --
+cpstore                  448     1     0.68 Infinite     3     0     --      38.23         --
+cppark                   249     1     0.37 Infinite     2     0     --      37.12         --
+cprepairin                64     0     0.09 Infinite     3     0     --      37.23         --
+cprepairout               64     0     0.04 Infinite     2     0     --      14.46         --
 
 Vehicle Statistics
        Delivering              Retrieving            Going To Park       Parking
@@ -1247,13 +1247,13 @@ Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
   Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
 ================================================================================
 DefVehicle:
-   0.384    203   47.65    0.355    138   64.85    0.236     84   70.76    0.025
-   0.380    203   47.21    0.346    137   63.66    0.240     85   71.29    0.015
-   0.375    196   48.25    0.372    139   67.40    0.218     76   72.36    0.010
+   0.385    205   47.29    0.349    137   64.27    0.241     86   70.54    0.025
+   0.382    202   47.60    0.347    136   64.25    0.239     84   71.57    0.015
+   0.374    195   48.38    0.374    140   67.37    0.217     76   71.84    0.010
 All DefVehicle:
-   0.380    602   47.70    0.358    414   65.30    0.232    245   71.47    0.017
+   0.380    602   47.76    0.357    413   65.30    0.232    246   71.32    0.017
 
-The Average Capacity Lost Due To Congestion is 3.5 Percent
+The Average Capacity Lost Due To Congestion is 3.4 Percent
 Of Total Capacity Which is 0.1 Vehicles
 
 Vehicle Segment Statistics
@@ -1268,83 +1268,83 @@ Current Status Of Vehicles
                                         Time In  Current              Destination          Load On or
 Vehicle              Status             Cur Status Location             Location             Claimed By Veh
 ==========================================================================================================
-DefVehicle(1)        Retrieve              16.48 cppark               cplabelout           Empty          
-DefVehicle(2)        Retrieve              55.58 cpin2                cplabelout           Empty          
-DefVehicle(3)        Deliver               13.54 cpinspect            cplabelin            Load 206 (L_Carton)
+DefVehicle(1)        Deliver Setdown        0.72 cpstore              cpstore              Load 191 (L_Carton)
+DefVehicle(2)        Move                  56.62 cpstore              cppark               Empty          
+DefVehicle(3)        Retrieve              40.63 cpstore              cpin2                Empty          
 
 Current Status Summary
               Average Time   Maximum Time   Minimum Time
 Type         In Cur Status   In Cur Status  In Cur Status
 ========================================================
-   DefVehicle        28.53          55.58          13.54
+   DefVehicle        32.66          56.62           0.72
 
 
 *** AutoMod 12.3 ***
 Model demo1
 Statistics at Absolute Clock = 8:00:00.00, Relative Clock = 8:00:00.00
-CPU time: Absolute: 278.662 sec, Relative: 278.662 sec
+CPU time: Absolute: 75.721 sec, Relative: 75.721 sec
 
 Statistics for Process System "demo1"
 
 Process Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
-P_EnterAssembly          240     1     0.91       --     2     0     --     109.17         --
-P_CompleteAssembly       239     2     1.14       --     2     0     --     136.78         --
-P_Out(1)                 102     0     0.78       --     3     0     --     219.51         --
-P_Out(2)                 135     2     0.96       --     3     0     --     203.76         --
-P_Store                  199     0     0.44       --     2     0     --      63.67         --
-P_Label                  213    14    10.49       --    19     0     --    1417.73         --
-P_Repair                  40     3     0.92       --     5     0     --     665.15         --
+P_EnterAssembly          240     1     0.91       --     2     0     --     109.33         --
+P_CompleteAssembly       239     2     1.13       --     2     0     --     136.72         --
+P_Out(1)                 103     1     0.79       --     3     0     --     221.67         --
+P_Out(2)                 134     0     0.95       --     3     0     --     203.58         --
+P_Store                  191     0     0.42       --     2     0     --      63.42         --
+P_Label                  214    23    11.21       --    23     0     --    1508.47         --
+P_Repair                  43     2     1.06       --     4     0     --     711.15         --
 P_Reject                  19     0     0.03       --     1     0     --      45.00         --
-P_Inspect                235     0     0.39       --     2     0     --      47.35         --
+P_Inspect                236     1     0.39       --     2     0     --      47.44         --
 
 Process Traffic Limit Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
-P_EnterAssembly          240     1     0.91 Infinite     2     0     --     109.17         --
-P_CompleteAssembly       239     2     1.14 Infinite     2     0     --     136.78         --
-P_Out(1)                 102     0     0.78 Infinite     3     0     --     219.51         --
-P_Out(2)                 135     2     0.96 Infinite     3     0     --     203.76         --
-P_Store                  199     0     0.44 Infinite     2     0     --      63.67         --
-P_Label                  213    14    10.49 Infinite    19     0     --    1417.73         --
-P_Repair                  40     3     0.92 Infinite     5     0     --     665.15         --
+P_EnterAssembly          240     1     0.91 Infinite     2     0     --     109.33         --
+P_CompleteAssembly       239     2     1.13 Infinite     2     0     --     136.72         --
+P_Out(1)                 103     1     0.79 Infinite     3     0     --     221.67         --
+P_Out(2)                 134     0     0.95 Infinite     3     0     --     203.58         --
+P_Store                  191     0     0.42 Infinite     2     0     --      63.42         --
+P_Label                  214    23    11.21 Infinite    23     0     --    1508.47         --
+P_Repair                  43     2     1.06 Infinite     4     0     --     711.15         --
 P_Reject                  19     0     0.03 Infinite     1     0     --      45.00         --
-P_Inspect                235     0     0.39 Infinite     2     0     --      47.35         --
+P_Inspect                236     1     0.39 Infinite     2     0     --      47.44         --
 
 Queue Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
-Space                    240     0     0.00 Infinite     1     0     --       0.40         --
-Q_Assemble               240     1     0.91        1     1     0  0.906     108.77       0.40
-Q_Wait(1)                102     0     0.34 Infinite     2     0     --      96.19         --
-Q_Wait(2)                135     2     0.45 Infinite     2     0     --      96.34         --
-Q_Store                  199     0     0.24        1     1     0  0.242      35.00       1.41
-Q_Repair                  39     2     0.82 Infinite     4     0     --     604.41         --
-Q_Label                  213    14    10.27 Infinite    19     0     --    1388.74         --
+Space                    240     0     0.00 Infinite     1     0     --       0.45         --
+Q_Assemble               240     1     0.91        1     1     0  0.907     108.88       0.45
+Q_Wait(1)                103     1     0.35 Infinite     2     0     --      98.35         --
+Q_Wait(2)                134     0     0.45 Infinite     2     0     --      96.16         --
+Q_Store                  191     0     0.23        1     1     0  0.232      35.00       1.13
+Q_Repair                  43     2     0.95 Infinite     4     0     --     633.83         --
+Q_Label                  214    23    10.99 Infinite    23     0     --    1478.86         --
 Q_Reject                  19     0     0.03 Infinite     1     0     --      45.00         --
 
 Resource Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait     State     
 ====================================================================================================
-R_Operator1              240     1     0.91        1     1     0  0.906     108.77       0.00     Up   ----      
-R_Operator2              238     1     0.49        1     1     0  0.490      59.28       0.00     Up   ----      
-R_Inspect                235     0     0.24        1     1     0  0.245      30.00       0.00     Up   ----      
-R_Label                  212     1     0.88        1     1     0  0.881     119.62     167.92     Up   ----      
-R_Repair                  38     1     0.45        1     1     0  0.449     340.59     115.06     Up   ----      
+R_Operator1              240     1     0.91        1     1     0  0.907     108.88       0.00     Up   ----      
+R_Operator2              238     1     0.49        1     1     0  0.489      59.21       0.00     Up   ----      
+R_Inspect                236     1     0.25        1     1     0  0.246      29.98       0.00     Up   ----      
+R_Label                  213     1     0.88        1     1     0  0.885     119.64     172.90     Up   ----      
+R_Repair                  43     1     0.51        1     1     0  0.505     338.56     138.50     Up   ----      
 
 Block Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
-B_Merge(1)               439     1     0.12        1     1     0  0.116       7.60       0.00
-B_Merge(2)               515     1     0.11        1     1     0  0.114       6.40       0.15
-B_Merge(3)               514     0     0.14        1     1     0  0.137       7.68       0.40
-B_Merge(4)               514     0     0.14        1     1     0  0.136       7.61       0.09
+B_Merge(1)               432     0     0.11        1     1     0  0.114       7.60       0.00
+B_Merge(2)               516     0     0.12        1     1     0  0.115       6.44       0.17
+B_Merge(3)               515     0     0.14        1     1     0  0.137       7.68       0.36
+B_Merge(4)               513     0     0.14        1     1     0  0.137       7.66       0.12
 
 Random Number Streams
 Name                 Total 
 ============================
-stream0              996
+stream0              1002
 stream_L_Carton_1    0
 stream_R_Operator1_1 0
 stream_R_Operator2_1 0
@@ -1357,19 +1357,19 @@ Statistics for Conveyor System "demo1.Conv1"
 Section Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
-sec1                     239     2     1.16 Infinite     2     0     --     140.22         --
+sec1                     239     2     1.16 Infinite     2     0     --     140.15         --
 sec2                     237     0     0.25 Infinite     1     0     --      30.66         --
-sec3                     237     0     0.51 Infinite     1     0     --      61.64         --
-sec4                     102     0     0.10 Infinite     1     0     --      27.36         --
-sec5                     135     0     0.13 Infinite     1     0     --      27.45         --
+sec3                     237     0     0.51 Infinite     1     0     --      61.71         --
+sec4                     103     0     0.10 Infinite     1     0     --      27.36         --
+sec5                     134     0     0.13 Infinite     1     0     --      27.45         --
 
 Station Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
 sta1                     239     0     0.00 Infinite     1     0     --       0.00         --
-sta2                     239     2     1.14 Infinite     2     0     --     136.78         --
-staout1                  102     0     0.44 Infinite     2     0     --     123.33         --
-staout2                  135     0     0.50 Infinite     2     0     --     107.42         --
+sta2                     239     2     1.13 Infinite     2     0     --     136.72         --
+staout1                  103     0     0.44 Infinite     2     0     --     123.33         --
+staout2                  134     0     0.50 Infinite     2     0     --     107.42         --
 
 Motor Statistics
 Name                     Status     Total Down       %_Up        Av_Time Up
@@ -1381,47 +1381,47 @@ Statistics for Path Mover System "demo1.Agv"
 Guide Path Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
-path1                    690     0     0.63 Infinite     3     0     --      26.35         --
-path2                    412     0     0.54 Infinite     3     0     --      37.93         --
-path3                    514     2     0.73 Infinite     3     0     --      40.68         --
-path4                     76     0     0.10 Infinite     2     0     --      36.21         --
-path5                    412     0     0.06 Infinite     1     0     --       4.20         --
-path6                    412     0     0.06 Infinite     1     0     --       4.20         --
-path7                     76     0     0.01 Infinite     1     0     --       4.11         --
-path8                     76     0     0.01 Infinite     1     0     --       4.51         --
-path9                    235     0     0.35 Infinite     2     0     --      42.34         --
+path1                    689     0     0.64 Infinite     3     0     --      26.59         --
+path2                    406     2     0.53 Infinite     3     0     --      37.77         --
+path3                    513     0     0.72 Infinite     3     0     --      40.24         --
+path4                     84     0     0.11 Infinite     3     0     --      36.21         --
+path5                    406     0     0.06 Infinite     1     0     --       4.20         --
+path6                    404     0     0.06 Infinite     1     0     --       4.20         --
+path7                     84     0     0.01 Infinite     1     0     --       4.10         --
+path8                     84     0     0.01 Infinite     1     0     --       4.61         --
+path9                    236     1     0.35 Infinite     2     0     --      42.29         --
 path10                     0     0     0.00 Infinite     0     0     --       0.00         --
 path11                     0     0     0.00 Infinite     0     0     --       0.00         --
-path12                   102     0     0.06 Infinite     2     0     --      18.28         --
-path13                   436     0     0.12 Infinite     2     0     --       7.64         --
-path14                   235     0     0.03 Infinite     1     0     --       4.08         --
-path15                   235     0     0.04 Infinite     1     0     --       5.49         --
-path16                   235     0     0.04 Infinite     1     0     --       4.46         --
+path12                   109     0     0.07 Infinite     2     0     --      18.41         --
+path13                   429     0     0.11 Infinite     2     0     --       7.27         --
+path14                   236     0     0.03 Infinite     1     0     --       4.08         --
+path15                   236     0     0.05 Infinite     1     0     --       5.61         --
+path16                   235     0     0.04 Infinite     1     0     --       4.40         --
 path17                   235     0     0.03 Infinite     1     0     --       4.08         --
-path18                   102     0     0.01 Infinite     1     0     --       4.12         --
-path19                   102     0     0.01 Infinite     1     0     --       4.11         --
-path20                   436     0     0.06 Infinite     1     0     --       4.04         --
-path21                   439     1     0.06 Infinite     1     0     --       4.13         --
-path22                   282     0     0.23 Infinite     3     0     --      23.20         --
+path18                   109     0     0.02 Infinite     1     0     --       4.12         --
+path19                   109     0     0.02 Infinite     1     0     --       4.09         --
+path20                   429     0     0.06 Infinite     1     0     --       4.05         --
+path21                   432     0     0.06 Infinite     1     0     --       4.15         --
+path22                   287     0     0.23 Infinite     3     0     --      23.05         --
 path23                     0     0     0.00 Infinite     0     0     --       0.00         --
 path24                     0     0     0.00 Infinite     0     0     --       0.00         --
-path25                   282     0     0.04 Infinite     1     0     --       4.12         --
-path26                   279     0     0.04 Infinite     1     0     --       4.12         --
-path27                   279     0     0.04 Infinite     1     0     --       4.12         --
-path28                   282     0     0.04 Infinite     1     0     --       4.18         --
+path25                   287     0     0.04 Infinite     1     0     --       4.12         --
+path26                   284     0     0.04 Infinite     1     0     --       4.12         --
+path27                   284     0     0.04 Infinite     1     0     --       4.12         --
+path28                   287     0     0.04 Infinite     1     0     --       4.18         --
 
 Control Point Statistics
 Name                   Total   Cur  Average Capacity   Max   Min   Util    Av_Time    Av_Wait
 ========================================================================================
-cpin1                    515     1     0.53 Infinite     3     0     --      29.85         --
-cpin2                    514     0     0.21 Infinite     2     0     --      11.96         --
-cpinspect                235     0     0.38 Infinite     2     0     --      46.14         --
-cplabelin                412     0     0.50 Infinite     3     0     --      35.05         --
-cplabelout               412     0     0.23 Infinite     2     0     --      16.28         --
-cpstore                  514     2     0.69 Infinite     3     0     --      38.73         --
-cppark                   282     0     0.36 Infinite     2     0     --      36.50         --
-cprepairin                76     0     0.10 Infinite     3     0     --      37.44         --
-cprepairout               76     0     0.04 Infinite     2     0     --      14.25         --
+cpin1                    516     0     0.53 Infinite     3     0     --      29.31         --
+cpin2                    516     0     0.22 Infinite     2     0     --      12.12         --
+cpinspect                236     1     0.38 Infinite     2     0     --      46.24         --
+cplabelin                406     1     0.50 Infinite     3     0     --      35.15         --
+cplabelout               405     1     0.23 Infinite     2     0     --      16.04         --
+cpstore                  513     0     0.69 Infinite     3     0     --      38.60         --
+cppark                   287     0     0.36 Infinite     3     0     --      36.43         --
+cprepairin                84     0     0.11 Infinite     3     0     --      37.42         --
+cprepairout               84     0     0.04 Infinite     2     0     --      14.27         --
 
 Vehicle Statistics
        Delivering              Retrieving            Going To Park       Parking
@@ -1430,11 +1430,11 @@ Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total  Trips  Time/  Of Total
   Time     Made  Trip     Time     Made  Trip     Time     Made  Trip     Time
 ================================================================================
 DefVehicle:
-   0.385    232   47.85    0.358    158   65.28    0.234     95   71.05    0.022
-   0.385    232   47.78    0.345    156   63.64    0.241     96   72.42    0.013
-   0.379    223   48.90    0.366    158   66.73    0.225     89   72.77    0.009
+   0.389    232   48.28    0.348    156   64.17    0.241     97   71.70    0.022
+   0.386    231   48.18    0.340    155   63.08    0.245     98   72.01    0.013
+   0.380    221   49.58    0.362    158   65.95    0.227     89   73.59    0.009
 All DefVehicle:
-   0.383    687   48.18    0.356    472   65.22    0.234    280   72.08    0.015
+   0.385    684   48.68    0.350    469   64.40    0.238    284   72.43    0.015
 
 The Average Capacity Lost Due To Congestion is 3.3 Percent
 Of Total Capacity Which is 0.1 Vehicles
@@ -1451,14 +1451,14 @@ Current Status Of Vehicles
                                         Time In  Current              Destination          Load On or
 Vehicle              Status             Cur Status Location             Location             Claimed By Veh
 ==========================================================================================================
-DefVehicle(1)        Retrieve              11.54 cppark               cpin2                Empty          
-DefVehicle(2)        Deliver               34.61 cpinspect            cprepairin           Load 236 (L_Carton)
-DefVehicle(3)        Move                  29.60 cplabelout           cppark               Empty          
+DefVehicle(1)        Deliver Setdown        9.92 cplabelin            cplabelin            Load 235 (L_Carton)
+DefVehicle(2)        Retrieve Pickup       13.73 cplabelout           cplabelout           Load 206 (L_Carton)
+DefVehicle(3)        Deliver WaitForLoad      25.18 cpinspect            cpinspect            Load 236 (L_Carton)
 
 Current Status Summary
               Average Time   Maximum Time   Minimum Time
 Type         In Cur Status   In Cur Status  In Cur Status
 ========================================================
-   DefVehicle        25.25          34.61          11.54
+   DefVehicle        16.28          25.18           9.92
 
 

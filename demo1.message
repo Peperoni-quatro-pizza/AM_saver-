@@ -3,6 +3,7 @@
 0.00: WARNING: There is no path from a node at 0.0173438 ft along Agv:path23.
 0.00: WARNING: There is no path from a node at 50.2464 ft along Agv:path13.
 0.00: Model image prepared... Ready to simulate.
+672.00: Animation step is now 2 Seconds.
 828.80: Load 3 (L_Carton) was rejected. Total time in system was468.803182
 857.18: Load 1 (L_Carton) Time in system = 737.178700
 1208.23: Load 6 (L_Carton) was rejected. Total time in system was488.228098
@@ -32,7 +33,7 @@
 4097.72: Load 30 (L_Carton) was rejected. Total time in system was496.049333
 4254.42: Load 27 (L_Carton) Time in system = 1003.269173
 4289.42: Load 28 (L_Carton) Time in system = 929.416259
-4432.21: Load 29 (L_Carton) Time in system = 948.653043
+4432.21: Load 29 (L_Carton) Time in system = 948.652559
 4578.03: Load 31 (L_Carton) Time in system = 858.027528
 4669.08: Load 34 (L_Carton) was rejected. Total time in system was589.077529
 5044.48: Load 36 (L_Carton) Time in system = 724.478918
@@ -40,185 +41,182 @@
 5514.66: Load 32 (L_Carton) Time in system = 1674.658376
 5654.55: Load 38 (L_Carton) Time in system = 1094.549567
 5941.75: Load 45 (L_Carton) was rejected. Total time in system was541.749586
-6000.57: Load 39 (L_Carton) Time in system = 1319.286332
-6035.57: Load 40 (L_Carton) Time in system = 1229.294478
-6316.17: Load 33 (L_Carton) Time in system = 2354.426089
-6371.05: Load 35 (L_Carton) Time in system = 2171.052233
-6522.12: Load 44 (L_Carton) Time in system = 1242.116063
-6705.66: Load 41 (L_Carton) Time in system = 1785.662850
-6856.83: Load 46 (L_Carton) Time in system = 1336.830757
-7041.47: Load 47 (L_Carton) Time in system = 1401.468356
-7203.68: Load 48 (L_Carton) Time in system = 1443.681897
-7319.11: Load 42 (L_Carton) Time in system = 2279.107854
-7527.12: Load 49 (L_Carton) Time in system = 1647.119876
-7863.22: Load 50 (L_Carton) Time in system = 1863.219172
-7923.37: Load 51 (L_Carton) Time in system = 1803.369079
-8063.26: Load 52 (L_Carton) Time in system = 1823.260270
-8371.45: Load 43 (L_Carton) Time in system = 3211.449779
-8406.45: Load 53 (L_Carton) Time in system = 2046.449779
-8546.34: Load 56 (L_Carton) Time in system = 1821.497818
-8581.34: Load 58 (L_Carton) Time in system = 1621.340968
-8763.46: Load 54 (L_Carton) Time in system = 2283.463602
-8907.03: Load 59 (L_Carton) Time in system = 1827.026278
-9046.92: Load 60 (L_Carton) Time in system = 1846.917466
-9209.23: Load 61 (L_Carton) Time in system = 1889.232456
-9264.04: Load 55 (L_Carton) Time in system = 2664.040100
-9598.65: Load 62 (L_Carton) Time in system = 2158.650721
-9704.97: Load 63 (L_Carton) Time in system = 2144.966065
-9732.49: Load 77 (L_Carton) was rejected. Total time in system was492.488743
-9844.86: Load 57 (L_Carton) Time in system = 3004.857253
-9912.47: Load 64 (L_Carton) Time in system = 2232.473965
-10074.69: Load 65 (L_Carton) Time in system = 2274.687504
-10215.34: Load 66 (L_Carton) Time in system = 2295.335012
-10250.34: Load 67 (L_Carton) Time in system = 2210.335012
-10359.61: Load 69 (L_Carton) Time in system = 2079.607811
-10498.43: Load 83 (L_Carton) was rejected. Total time in system was538.434262
-10573.77: Load 70 (L_Carton) Time in system = 2173.427409
-10596.43: Load 84 (L_Carton) was rejected. Total time in system was516.427311
-10685.52: Load 71 (L_Carton) Time in system = 2165.522071
-10790.90: Load 72 (L_Carton) Time in system = 2150.895625
-10825.90: Load 68 (L_Carton) Time in system = 2665.895625
-10930.79: Load 74 (L_Carton) Time in system = 2050.786813
-11119.15: Load 75 (L_Carton) Time in system = 2119.148813
-11281.36: Load 76 (L_Carton) Time in system = 2161.362352
-11316.36: Load 78 (L_Carton) Time in system = 1956.362352
-11415.20: Load 90 (L_Carton) was rejected. Total time in system was615.200374
-11595.19: Load 73 (L_Carton) Time in system = 2835.185596
-11656.93: Load 79 (L_Carton) Time in system = 2176.926883
-11757.50: Load 80 (L_Carton) Time in system = 2157.500586
-11812.31: Load 82 (L_Carton) Time in system = 1972.308230
-11949.58: Load 95 (L_Carton) was rejected. Total time in system was549.581404
-12102.17: Load 85 (L_Carton) Time in system = 1902.170362
-12147.02: Load 86 (L_Carton) Time in system = 1827.020301
-12286.91: Load 81 (L_Carton) Time in system = 2566.911489
-12449.13: Load 87 (L_Carton) Time in system = 2009.125028
-12567.72: Load 88 (L_Carton) Time in system = 2007.719353
-12707.61: Load 91 (L_Carton) Time in system = 1785.298888
-12809.92: Load 92 (L_Carton) Time in system = 1769.915900
-12847.50: Load 93 (L_Carton) Time in system = 1687.501730
-13103.17: Load 89 (L_Carton) Time in system = 2423.169088
-13287.81: Load 94 (L_Carton) Time in system = 2007.806685
-13747.75: Load 96 (L_Carton) Time in system = 2227.746744
-13784.87: Load 97 (L_Carton) Time in system = 2144.873297
-13943.76: Load 99 (L_Carton) Time in system = 2063.764589
-14083.66: Load 100 (L_Carton) Time in system = 2083.655778
-14281.48: Load 101 (L_Carton) Time in system = 2161.479284
-14421.37: Load 98 (L_Carton) Time in system = 2661.370473
-14456.37: Load 104 (L_Carton) Time in system = 1976.370473
-14767.23: Load 102 (L_Carton) Time in system = 2527.234877
-14802.23: Load 107 (L_Carton) Time in system = 1962.234877
-15090.67: Load 108 (L_Carton) Time in system = 2130.672855
-15127.71: Load 109 (L_Carton) Time in system = 2047.707079
-15461.16: Load 110 (L_Carton) Time in system = 2261.157488
-15585.09: Load 103 (L_Carton) Time in system = 3225.091362
-15729.36: Load 111 (L_Carton) Time in system = 2409.357287
-15951.47: Load 112 (L_Carton) Time in system = 2511.468350
-15986.47: Load 113 (L_Carton) Time in system = 2426.468350
-16091.36: Load 105 (L_Carton) Time in system = 3491.359538
-16135.02: Load 114 (L_Carton) Time in system = 2455.015138
-16275.80: Load 115 (L_Carton) Time in system = 2475.800637
-16646.29: Load 116 (L_Carton) Time in system = 2725.599245
-16689.57: Load 135 (L_Carton) was rejected. Total time in system was489.567598
-16752.60: Load 106 (L_Carton) Time in system = 4032.600611
-16787.60: Load 117 (L_Carton) Time in system = 2744.282476
-16961.81: Load 119 (L_Carton) Time in system = 2681.808314
-17068.28: Load 120 (L_Carton) Time in system = 2668.280221
-17123.09: Load 118 (L_Carton) Time in system = 2963.085238
-17262.98: Load 122 (L_Carton) Time in system = 2622.976428
-17447.61: Load 123 (L_Carton) Time in system = 2687.614027
-17609.83: Load 124 (L_Carton) Time in system = 2727.283108
-17644.83: Load 125 (L_Carton) Time in system = 2644.827565
-17785.81: Load 121 (L_Carton) Time in system = 3264.395967
-17925.70: Load 127 (L_Carton) Time in system = 2685.698421
-18059.54: Load 146 (L_Carton) was rejected. Total time in system was539.536441
-18087.91: Load 128 (L_Carton) Time in system = 2727.911958
-18239.52: Load 129 (L_Carton) Time in system = 2759.521661
-18381.59: Load 131 (L_Carton) Time in system = 2658.260210
-18487.91: Load 126 (L_Carton) Time in system = 3367.910503
-18522.91: Load 132 (L_Carton) Time in system = 2682.910503
-18568.48: Load 150 (L_Carton) was rejected. Total time in system was568.478192
-18627.80: Load 133 (L_Carton) Time in system = 2667.801693
-18748.46: Load 134 (L_Carton) Time in system = 2668.463412
-18888.35: Load 130 (L_Carton) Time in system = 3288.354602
-18951.24: Load 136 (L_Carton) Time in system = 2631.239668
-19050.67: Load 137 (L_Carton) Time in system = 2610.669593
-19105.48: Load 138 (L_Carton) Time in system = 2545.477239
-19212.98: Load 139 (L_Carton) Time in system = 2532.984130
-19247.98: Load 140 (L_Carton) Time in system = 2447.984130
-19430.11: Load 141 (L_Carton) Time in system = 2508.751005
-19530.37: Load 158 (L_Carton) was rejected. Total time in system was570.368938
-19570.00: Load 143 (L_Carton) Time in system = 2409.997950
-19605.00: Load 144 (L_Carton) Time in system = 2324.145157
-19732.31: Load 145 (L_Carton) Time in system = 2332.312942
-19894.63: Load 147 (L_Carton) Time in system = 2254.627478
-20034.52: Load 142 (L_Carton) Time in system = 2994.518668
-20069.52: Load 148 (L_Carton) Time in system = 2309.518668
-20209.41: Load 149 (L_Carton) Time in system = 2329.409858
-20371.62: Load 151 (L_Carton) Time in system = 2251.623395
-20406.62: Load 152 (L_Carton) Time in system = 2166.623395
-20644.68: Load 153 (L_Carton) Time in system = 2284.682491
-20732.10: Load 154 (L_Carton) Time in system = 2252.095597
-20894.31: Load 155 (L_Carton) Time in system = 2294.309134
-21132.77: Load 156 (L_Carton) Time in system = 2412.765014
-21239.08: Load 157 (L_Carton) Time in system = 2396.361892
-21283.83: Load 159 (L_Carton) Time in system = 2203.828846
-21423.72: Load 160 (L_Carton) Time in system = 2223.720036
-21586.04: Load 161 (L_Carton) Time in system = 2266.035028
-21621.04: Load 162 (L_Carton) Time in system = 2181.035028
-21763.83: Load 164 (L_Carton) Time in system = 2083.828198
-21958.75: Load 166 (L_Carton) Time in system = 2038.749721
-22098.64: Load 167 (L_Carton) Time in system = 2058.640911
-22190.30: Load 168 (L_Carton) Time in system = 2030.296249
-22330.19: Load 163 (L_Carton) Time in system = 2770.187439
-22470.08: Load 169 (L_Carton) Time in system = 2190.078629
-22687.20: Load 170 (L_Carton) Time in system = 2287.201262
-22722.20: Load 165 (L_Carton) Time in system = 2922.201262
-22827.09: Load 171 (L_Carton) Time in system = 2307.092452
-22870.75: Load 172 (L_Carton) Time in system = 2230.748052
-23161.81: Load 173 (L_Carton) Time in system = 2401.807145
-23338.40: Load 174 (L_Carton) Time in system = 2458.398852
-23500.61: Load 175 (L_Carton) Time in system = 2500.612389
-23535.61: Load 177 (L_Carton) Time in system = 2295.612389
-23871.10: Load 178 (L_Carton) Time in system = 2511.097016
-23977.41: Load 179 (L_Carton) Time in system = 2497.412360
-24012.41: Load 180 (L_Carton) Time in system = 2412.412360
-24073.67: Load 196 (L_Carton) was rejected. Total time in system was553.670540
-24117.30: Load 176 (L_Carton) Time in system = 2995.356976
-24157.30: Load 181 (L_Carton) Time in system = 2437.296616
-24297.19: Load 183 (L_Carton) Time in system = 2337.187806
-24459.40: Load 184 (L_Carton) Time in system = 2379.401344
-24494.40: Load 185 (L_Carton) Time in system = 2294.401344
-24634.29: Load 182 (L_Carton) Time in system = 2794.292533
-24774.18: Load 186 (L_Carton) Time in system = 2454.183723
-24829.41: Load 188 (L_Carton) Time in system = 2269.411039
-24991.31: Load 189 (L_Carton) Time in system = 2311.306354
-25097.62: Load 190 (L_Carton) Time in system = 2297.621698
-25164.42: Load 191 (L_Carton) Time in system = 2244.420733
-25314.74: Load 187 (L_Carton) Time in system = 2871.129126
-25349.74: Load 192 (L_Carton) Time in system = 2309.744332
-25454.64: Load 193 (L_Carton) Time in system = 2294.635522
-25616.95: Load 194 (L_Carton) Time in system = 2333.665246
-25673.18: Load 195 (L_Carton) Time in system = 2268.873352
-25834.07: Load 197 (L_Carton) Time in system = 2194.073144
-25940.39: Load 198 (L_Carton) Time in system = 2180.388488
-25975.39: Load 199 (L_Carton) Time in system = 2095.388488
-26236.67: Load 214 (L_Carton) was rejected. Total time in system was556.668507
-26275.10: Load 200 (L_Carton) Time in system = 2275.103181
-26414.99: Load 201 (L_Carton) Time in system = 2291.115875
-26449.99: Load 202 (L_Carton) Time in system = 2209.994371
-26548.83: Load 217 (L_Carton) was rejected. Total time in system was508.832392
-26589.89: Load 203 (L_Carton) Time in system = 2225.532104
-26729.78: Load 204 (L_Carton) Time in system = 2249.776751
-26764.78: Load 205 (L_Carton) Time in system = 2164.776751
-26983.93: Load 206 (L_Carton) Time in system = 2263.933842
-27090.25: Load 207 (L_Carton) Time in system = 2250.249187
-27130.45: Load 208 (L_Carton) Time in system = 2170.446172
-27286.27: Load 210 (L_Carton) Time in system = 2086.267028
-27576.13: Load 211 (L_Carton) Time in system = 2256.129159
-27738.34: Load 209 (L_Carton) Time in system = 2658.342697
-27773.34: Load 213 (L_Carton) Time in system = 2213.342697
-28191.51: Load 230 (L_Carton) was rejected. Total time in system was591.512993
-28295.56: Load 212 (L_Carton) Time in system = 2854.642980
-28630.27: Load 215 (L_Carton) Time in system = 2828.923212
-28665.27: Load 216 (L_Carton) Time in system = 2745.273900
+6000.57: Load 39 (L_Carton) Time in system = 1319.286325
+6035.57: Load 40 (L_Carton) Time in system = 1229.294471
+6316.17: Load 33 (L_Carton) Time in system = 2354.426083
+6371.05: Load 35 (L_Carton) Time in system = 2171.052226
+6522.12: Load 44 (L_Carton) Time in system = 1242.116057
+6705.66: Load 41 (L_Carton) Time in system = 1785.662844
+6856.83: Load 46 (L_Carton) Time in system = 1336.830751
+7041.47: Load 47 (L_Carton) Time in system = 1401.468349
+7203.68: Load 48 (L_Carton) Time in system = 1443.681891
+7319.11: Load 42 (L_Carton) Time in system = 2279.107848
+7527.12: Load 49 (L_Carton) Time in system = 1647.119869
+7863.22: Load 50 (L_Carton) Time in system = 1863.219165
+7923.37: Load 51 (L_Carton) Time in system = 1803.369073
+8063.26: Load 52 (L_Carton) Time in system = 1823.260263
+8371.45: Load 43 (L_Carton) Time in system = 3211.449773
+8406.45: Load 53 (L_Carton) Time in system = 2046.449773
+8546.34: Load 56 (L_Carton) Time in system = 1821.497811
+8581.34: Load 58 (L_Carton) Time in system = 1621.340961
+8763.46: Load 54 (L_Carton) Time in system = 2283.463595
+8907.03: Load 59 (L_Carton) Time in system = 1827.026271
+9046.92: Load 60 (L_Carton) Time in system = 1846.917460
+9209.23: Load 61 (L_Carton) Time in system = 1889.232449
+9264.04: Load 55 (L_Carton) Time in system = 2664.040094
+9598.65: Load 62 (L_Carton) Time in system = 2158.650714
+9704.97: Load 63 (L_Carton) Time in system = 2144.966058
+9732.49: Load 77 (L_Carton) was rejected. Total time in system was492.488737
+9844.86: Load 57 (L_Carton) Time in system = 3004.857247
+9912.47: Load 64 (L_Carton) Time in system = 2232.473958
+10074.69: Load 65 (L_Carton) Time in system = 2274.687497
+10215.34: Load 66 (L_Carton) Time in system = 2295.335006
+10250.34: Load 67 (L_Carton) Time in system = 2210.335006
+10359.61: Load 69 (L_Carton) Time in system = 2079.607559
+10498.43: Load 83 (L_Carton) was rejected. Total time in system was538.434255
+10573.77: Load 70 (L_Carton) Time in system = 2173.427403
+10596.43: Load 84 (L_Carton) was rejected. Total time in system was516.427305
+10685.52: Load 71 (L_Carton) Time in system = 2165.522064
+10790.90: Load 72 (L_Carton) Time in system = 2150.895618
+10825.90: Load 68 (L_Carton) Time in system = 2665.895618
+10930.79: Load 74 (L_Carton) Time in system = 2050.786806
+11119.15: Load 75 (L_Carton) Time in system = 2119.148806
+11281.36: Load 76 (L_Carton) Time in system = 2161.362345
+11316.36: Load 78 (L_Carton) Time in system = 1956.362345
+11415.20: Load 90 (L_Carton) was rejected. Total time in system was615.200368
+11595.19: Load 73 (L_Carton) Time in system = 2835.185589
+11656.93: Load 79 (L_Carton) Time in system = 2176.926877
+11757.50: Load 80 (L_Carton) Time in system = 2157.500579
+11812.31: Load 82 (L_Carton) Time in system = 1972.308224
+11949.58: Load 95 (L_Carton) was rejected. Total time in system was549.581398
+12102.17: Load 85 (L_Carton) Time in system = 1902.170356
+12147.02: Load 86 (L_Carton) Time in system = 1827.020294
+12286.91: Load 81 (L_Carton) Time in system = 2566.911482
+12449.13: Load 87 (L_Carton) Time in system = 2009.125022
+12567.72: Load 88 (L_Carton) Time in system = 2007.719346
+12707.61: Load 91 (L_Carton) Time in system = 1785.298881
+12809.92: Load 92 (L_Carton) Time in system = 1769.915758
+12847.50: Load 93 (L_Carton) Time in system = 1687.501723
+13103.17: Load 89 (L_Carton) Time in system = 2423.168946
+13287.81: Load 94 (L_Carton) Time in system = 2007.806543
+13747.75: Load 96 (L_Carton) Time in system = 2227.746602
+13784.87: Load 97 (L_Carton) Time in system = 2144.873156
+13943.76: Load 99 (L_Carton) Time in system = 2063.764447
+14083.66: Load 100 (L_Carton) Time in system = 2083.655636
+14281.48: Load 101 (L_Carton) Time in system = 2161.479142
+14352.00: Animation step is now 1 Seconds.
+14393.00: Animation step is now 0.5 Seconds.
+14413.50: Animation step is now 0.25 Seconds.
+14419.00: Animation step is now 0.125 Seconds.
+14421.37: Load 98 (L_Carton) Time in system = 2661.370331
+14456.37: Load 104 (L_Carton) Time in system = 1976.370331
+14767.23: Load 102 (L_Carton) Time in system = 2527.234735
+14802.23: Load 107 (L_Carton) Time in system = 1962.234735
+14854.25: Animation is off.
+15090.67: Load 108 (L_Carton) Time in system = 2130.672713
+15127.71: Load 109 (L_Carton) Time in system = 2047.706937
+15461.16: Load 110 (L_Carton) Time in system = 2261.157346
+15585.09: Load 103 (L_Carton) Time in system = 3225.091220
+15729.36: Load 111 (L_Carton) Time in system = 2409.356900
+15951.47: Load 112 (L_Carton) Time in system = 2511.468208
+15986.47: Load 113 (L_Carton) Time in system = 2426.468208
+16091.36: Load 105 (L_Carton) Time in system = 3491.359396
+16135.01: Load 114 (L_Carton) Time in system = 2455.014996
+16275.80: Load 115 (L_Carton) Time in system = 2475.800495
+16646.29: Load 116 (L_Carton) Time in system = 2725.599103
+16689.57: Load 135 (L_Carton) was rejected. Total time in system was489.567456
+16752.60: Load 106 (L_Carton) Time in system = 4032.600469
+16787.60: Load 117 (L_Carton) Time in system = 2744.282334
+16961.81: Load 119 (L_Carton) Time in system = 2681.808172
+17068.28: Load 120 (L_Carton) Time in system = 2668.280079
+17123.09: Load 118 (L_Carton) Time in system = 2963.085096
+17262.98: Load 122 (L_Carton) Time in system = 2622.976286
+17447.61: Load 123 (L_Carton) Time in system = 2687.613885
+17609.83: Load 124 (L_Carton) Time in system = 2727.282966
+17644.83: Load 125 (L_Carton) Time in system = 2644.827423
+17785.81: Load 121 (L_Carton) Time in system = 3264.395825
+17925.70: Load 127 (L_Carton) Time in system = 2685.698279
+18059.54: Load 146 (L_Carton) was rejected. Total time in system was539.536299
+18087.91: Load 128 (L_Carton) Time in system = 2727.911816
+18239.52: Load 129 (L_Carton) Time in system = 2759.521520
+18381.59: Load 131 (L_Carton) Time in system = 2658.260068
+18487.91: Load 126 (L_Carton) Time in system = 3367.910361
+18522.91: Load 132 (L_Carton) Time in system = 2682.910361
+18568.48: Load 150 (L_Carton) was rejected. Total time in system was568.478050
+18627.80: Load 133 (L_Carton) Time in system = 2667.801551
+18748.46: Load 134 (L_Carton) Time in system = 2668.463270
+18888.35: Load 130 (L_Carton) Time in system = 3288.354460
+18951.24: Load 136 (L_Carton) Time in system = 2631.239526
+19050.67: Load 137 (L_Carton) Time in system = 2610.669451
+19105.48: Load 138 (L_Carton) Time in system = 2545.477097
+19212.98: Load 139 (L_Carton) Time in system = 2532.983988
+19247.98: Load 140 (L_Carton) Time in system = 2447.983988
+19430.11: Load 141 (L_Carton) Time in system = 2508.750863
+19530.37: Load 158 (L_Carton) was rejected. Total time in system was570.368796
+19570.00: Load 143 (L_Carton) Time in system = 2409.997808
+19605.00: Load 144 (L_Carton) Time in system = 2324.145015
+19732.31: Load 145 (L_Carton) Time in system = 2332.312800
+19894.63: Load 147 (L_Carton) Time in system = 2254.627336
+20034.52: Load 142 (L_Carton) Time in system = 2994.518526
+20069.52: Load 148 (L_Carton) Time in system = 2309.518526
+20209.41: Load 149 (L_Carton) Time in system = 2329.409716
+20371.62: Load 151 (L_Carton) Time in system = 2251.623254
+20406.62: Load 152 (L_Carton) Time in system = 2166.623254
+20644.68: Load 153 (L_Carton) Time in system = 2284.682349
+20732.10: Load 154 (L_Carton) Time in system = 2252.095455
+20894.31: Load 155 (L_Carton) Time in system = 2294.308993
+21132.76: Load 156 (L_Carton) Time in system = 2412.764872
+21239.08: Load 157 (L_Carton) Time in system = 2396.361750
+21283.83: Load 159 (L_Carton) Time in system = 2203.828705
+21423.72: Load 160 (L_Carton) Time in system = 2223.719894
+21586.03: Load 161 (L_Carton) Time in system = 2266.034886
+21621.03: Load 162 (L_Carton) Time in system = 2181.034886
+21763.83: Load 164 (L_Carton) Time in system = 2083.827570
+21958.75: Load 166 (L_Carton) Time in system = 2038.749579
+22098.64: Load 167 (L_Carton) Time in system = 2058.640769
+22190.30: Load 168 (L_Carton) Time in system = 2030.296107
+22330.19: Load 163 (L_Carton) Time in system = 2770.187297
+22470.08: Load 169 (L_Carton) Time in system = 2190.078487
+22687.20: Load 170 (L_Carton) Time in system = 2287.201120
+22722.20: Load 165 (L_Carton) Time in system = 2922.201120
+22827.09: Load 171 (L_Carton) Time in system = 2307.092310
+22870.75: Load 172 (L_Carton) Time in system = 2230.747910
+23161.81: Load 173 (L_Carton) Time in system = 2401.807003
+23324.02: Load 174 (L_Carton) Time in system = 2444.020541
+23486.05: Load 175 (L_Carton) Time in system = 2486.046334
+23541.14: Load 177 (L_Carton) Time in system = 2301.143171
+23831.01: Load 178 (L_Carton) Time in system = 2471.005304
+23875.86: Load 179 (L_Carton) Time in system = 2395.855239
+23993.22: Load 180 (L_Carton) Time in system = 2393.218841
+24028.22: Load 176 (L_Carton) Time in system = 2906.272267
+24195.68: Load 181 (L_Carton) Time in system = 2475.682938
+24358.00: Load 183 (L_Carton) Time in system = 2397.996916
+24497.89: Load 184 (L_Carton) Time in system = 2417.888105
+24597.48: Load 185 (L_Carton) Time in system = 2397.480060
+24737.37: Load 182 (L_Carton) Time in system = 2897.371250
+24877.26: Load 186 (L_Carton) Time in system = 2557.262440
+25017.15: Load 188 (L_Carton) Time in system = 2457.153630
+25072.38: Load 189 (L_Carton) Time in system = 2392.380945
+25179.37: Load 190 (L_Carton) Time in system = 2379.367168
+25234.28: Load 191 (L_Carton) Time in system = 2314.276261
+25374.17: Load 187 (L_Carton) Time in system = 2930.552245
+25647.23: Load 192 (L_Carton) Time in system = 2607.226546
+25809.54: Load 193 (L_Carton) Time in system = 2649.541537
+25844.54: Load 194 (L_Carton) Time in system = 2561.256270
+26117.01: Load 213 (L_Carton) was rejected. Total time in system was557.008191
+26176.01: Load 195 (L_Carton) Time in system = 2771.702736
+26296.99: Load 197 (L_Carton) Time in system = 2656.993411
+26481.63: Load 198 (L_Carton) Time in system = 2717.668507
+26677.65: Load 199 (L_Carton) Time in system = 2797.648852
+26907.57: Load 220 (L_Carton) was rejected. Total time in system was507.568994
+27004.52: Load 200 (L_Carton) Time in system = 3004.521981
+27087.55: Load 196 (L_Carton) Time in system = 3567.554214
+27560.41: Load 201 (L_Carton) Time in system = 3436.534837
+27687.19: Load 202 (L_Carton) Time in system = 3442.323406
+27849.51: Load 203 (L_Carton) Time in system = 3480.284864
+28119.85: Load 230 (L_Carton) was rejected. Total time in system was519.846104
+28170.65: Load 204 (L_Carton) Time in system = 3690.645680
+28171.97: Load 229 (L_Carton) was rejected. Total time in system was691.972658
+28505.36: Load 205 (L_Carton) Time in system = 3905.360373
+28678.85: Load 209 (L_Carton) Time in system = 3598.850628
 28800.00: End of run.
